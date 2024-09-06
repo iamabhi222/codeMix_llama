@@ -4,6 +4,7 @@ from langchain_core.prompts import PromptTemplate
 from langchain_core.pydantic_v1 import BaseModel, Field
 from langchain_openai import ChatOpenAI
 from openai import OpenAI
+import time
 
 NVIDAI_API_KEY = "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"
 
@@ -79,10 +80,9 @@ for batch in batches:
         f"{parser.get_format_instructions()}"
     )
 
-    print(prompt)
-
     try:
         # Make the API call
+        start_time = time.perf_counter()
         completion = client.chat.completions.create(
             model="meta/llama-3.1-405b-instruct",
             messages=[{"role": "user", "content": prompt}],
@@ -91,6 +91,11 @@ for batch in batches:
             max_tokens=4096,
             stream=False
         )
+
+        end_time = time.perf_counter()
+        elapsed_time = end_time - start_time
+
+        print("Time for API", elapsed_time)
 
         # Initialize buffer to store chunks of the response
         try:
