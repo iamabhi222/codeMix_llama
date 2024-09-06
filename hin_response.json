@@ -1,0 +1,1290 @@
+{
+  "batch_1": [
+    {
+      "src_sent": "List all the ESI centers located in the state of Goa that provide microbiology services and whose center type is IMMP hospital.",
+      "tgt_sent": "राज्य गोवा में स्थित सभी ई [E] एस [S] आई [I] सी [C] केंद्रों को सूचीबद्ध करें जो सूक्ष्मजीव विज्ञान सेवाएँ देते हैं और जिनके केंद्र प्रकार आई [M] एम [M] पी [P] चिकित्सालय हैं",
+      "codeMix": "गोवा राज्य में स्थित सभी ESI केंद्रों को सूचीबद्ध करें जो Microbiology सेवाएँ देते हैं और जिनके केंद्र प्रकार IMMP Hospital हैं"
+    },
+    {
+      "src_sent": "Popular industries for networking programs include investments in software, programming, and biotech.",
+      "tgt_sent": "नेटवर्किंग [Networking] कार्यक्रमों के लिए लोकप्रिय उद्योगों में निवेश सॉफ्टवेयर [Software] प्रोग्रामिंग [programming] और बायोटेक [biotech] शामिल हैं",
+      "codeMix": "नेटवर्किंग कार्यक्रमों के लिए लोकप्रिय उद्योगों में निवेश Software, Programming और Biotech शामिल हैं"
+    },
+    {
+      "src_sent": "If you're that interested, you can get in touch with these friends to ask if they've heard anything.",
+      "tgt_sent": "यदि आप इतने इच्छुक हैं, तो आप इन मित्रों से यह पूछने के लिए संपर्क कर सकते हैं कि क्या उन्होंने कुछ सुना है",
+      "codeMix": "यदि आप इतने इच्छुक हैं, तो आप इन friends से संपर्क कर सकते हैं और पूछ सकते हैं कि क्या उन्होंने कुछ सुना है"
+    },
+    {
+      "src_sent": "Where is a petrol station within a five-mile radius?",
+      "tgt_sent": "पाँच मील के दायरे में पेट्रोल [petrol] स्टेशन [station] कहाँ",
+      "codeMix": "पाँच मील के दायरे में Petrol Station कहाँ है"
+    },
+    {
+      "src_sent": "Please move on to the next song.",
+      "tgt_sent": "कृपया अगले गीत पर जाएँ",
+      "codeMix": "कृपया अगले Song पर जाएँ"
+    },
+    {
+      "src_sent": "Then use graphs and charts to create a map of the increase in your estimated gross income.",
+      "tgt_sent": "फिर अपनी अनुमानित सकल आय में वृद्धि का मानचित्र तैयार करने के लिए ग्राफ़ [Graph] और चार्ट [chart] का उपयोग करें",
+      "codeMix": "फिर अपनी अनुमानित सकल आय में वृद्धि का मानचित्र तैयार करने के लिए Graph और Chart का उपयोग करें"
+    },
+    {
+      "src_sent": "Various types of insects such as scorpions, spiders, invertebrate butterflies, locusts, and crickets are found in abundance in this forest.",
+      "tgt_sent": "बिच्छू मकड़ी जैसे अकशेरुकी तितलियाँ टिड्डी झींगुर आदि जैसे विभिन्न प्रकार के कीट इस वन में प्रचुर मात्रा में पाए जाते हैं।",
+      "codeMix": "बिच्छू, मकड़ी, Invertebrate तितलियाँ, Locusts, और Crickets जैसे विभिन्न प्रकार के कीट इस वन में प्रचुर मात्रा में पाए जाते हैं"
+    }
+  ],
+  "batch_2": [
+    {
+      "src_sent": "Please show the Corbevax vaccination centers that are paid for children with an age limit of eighteen years.",
+      "tgt_sent": "कृपया कोर्बोवेक्स [corbevax] व टीकाकरण केंद्र प्रदर्शित करो जो अट्ठारह वर्ष [breathing] अट्ठारह वर्ष की आयु सीमा के बच्चों के लिए [breathing] सशुल्क हों",
+      "codeMix": "कृपया Corbevax व टीकाकरण केंद्र प्रदर्शित करो जो अट्ठारह वर्ष की आयु सीमा के बच्चों के लिए paid हों"
+    },
+    {
+      "src_sent": "Can you automatically stop sending ten thousand rupees per year to Ravina Bhanod and send four hundred rupees to Paytm?",
+      "tgt_sent": "क्या आप स्वचालित रूप से रवीना भानोद को दस हज़ार रुपये प्रति वर्ष भेजना बंद कर सकते हैं [inhaling] और चार सौ रुपये पेटीएम [Paytm] पर भेज सकते हैं",
+      "codeMix": "क्या आप स्वचालित रूप से Ravina Bhanod को दस हज़ार रुपये प्रति वर्ष भेजना बंद कर सकते हैं और चार सौ रुपये Paytm पर भेज सकते हैं"
+    },
+    {
+      "src_sent": "I have breakfast at eight in the morning.",
+      "tgt_sent": "मैं सुबह आठ बजे नाश्ता करता हूँ",
+      "codeMix": "मैं सुबह आठ बजे breakfast करता हूँ"
+    },
+    {
+      "src_sent": "Find vaccination centers in Kollam district.",
+      "tgt_sent": "कोल्लम ज़िले में टीकाकरण केंद्र ढूँढें",
+      "codeMix": "कोल्लम ज़िले में vaccination centers ढूँढें"
+    },
+    {
+      "src_sent": "Is this pasta available in any other brand?",
+      "tgt_sent": "क्या यह पास्ता [pasta] किसी अन्य ब्रांड [brand] में उपलब्ध है",
+      "codeMix": "क्या यह pasta किसी अन्य brand में उपलब्ध है"
+    },
+    {
+      "src_sent": "How much can I withdraw from my Tamil Nadu Grama Bank account?",
+      "tgt_sent": "मैं अपने तमिलनाडु ग्राम बैंक [bank] खाते से कितना निकाल सकता हूँ",
+      "codeMix": "मैं अपने Tamil Nadu Grama Bank account से कितना withdraw कर सकता हूँ"
+    },
+    {
+      "src_sent": "Show me the readings of my credit card bills for the last five months.",
+      "tgt_sent": "पिछले पाँच महीने की मेरी क्रेडिट [credit] कार्ड [card] बिल [bill] रीडिंग [Reading] दिखाएँ",
+      "codeMix": "पिछले पाँच महीने की मेरी credit card bills की readings दिखाएँ"
+    },
+    {
+      "src_sent": "Can I repay my Consumer Durable loan through Airtel Money at Baroda UP Bank?",
+      "tgt_sent": "क्या मैं अपने कंज़्यूमर [Consumer] ड्यूरेबल [Durable] लोन [loan] को बड़ौदा यू [U] पी [P] बैंक [bank] पर एयरटेल [Airtel] मनी [money] के माध्यम से वापस भुगतान कर सकता हूँ?",
+      "codeMix": "क्या मैं अपने Consumer Durable loan को Baroda UP Bank पर Airtel Money के माध्यम से repay कर सकता हूँ"
+    }
+  ],
+  "batch_3": [
+    {
+      "src_sent": "What is the best offer on snacks?",
+      "tgt_sent": "इस्नेक्स [Snacks] पर सबसे अच्छा ऑफ़र [Offer] क्या है",
+      "codeMix": "इस्नेक्स Snacks पर सबसे अच्छा Offer क्या है"
+    },
+    {
+      "src_sent": "Do I have any upcoming events on my calendar?",
+      "tgt_sent": "क्या मेरे कैलेंडर [Calendar] पर कोई आयोजन आने वाला है",
+      "codeMix": "क्या मेरे Calendar पर कोई आयोजन आने वाला है"
+    },
+    {
+      "src_sent": "When will the 30 percent off offer on Ustraa Hair Growth Cream be back?",
+      "tgt_sent": "तीस परसेंट [percent] उस्तरा हेयर [Hair] ग्रोथ [Growth] क्रीम [Cream] का ऑफर [offer] वापस कब आएगा",
+      "codeMix": "तीस परसेंट percent उस्तरा Hair ग्रोथ Growth क्रीम Cream का Offer वापस कब आएगा"
+    },
+    {
+      "src_sent": "Show me items with discounts on ice cream.",
+      "tgt_sent": "मुझे आइसक्रीम [ice cream] पर छूट वाले आइटम [item] दिखाएँ",
+      "codeMix": "मुझे ice cream पर छूट वाले item दिखाएँ"
+    },
+    {
+      "src_sent": "What is my average expenditure on groceries in the last fifteen days?",
+      "tgt_sent": "मेरा पिछले पन्द्रह दिन में किराने [talking] [inhaling] पर औसत खर्च कितना [breathing] है",
+      "codeMix": "मेरा पिछले पन्द्रह दिन में किराने पर औसत खर्च कितना है"
+    },
+    {
+      "src_sent": "What kind of shops are there near my neighborhood?",
+      "tgt_sent": "मेरे मोहल्ले के पास किस तरह की दुकानें हैं",
+      "codeMix": "मेरे मोहल्ले के पास किस तरह की दुकानें हैं"
+    },
+    {
+      "src_sent": "What is the status of my order for Jiva Bajri Atta Raw, Pressery Protein Milkshake, and Haldiram Gulab Jamun items?",
+      "tgt_sent": "जीवा बाजरी आटा रॉ [Raw] प्रेस्सेरी [Pressery] प्रोटीन [Protein] मिल्कशेक [Milkshake] हल्दीराम गुलाब जामुन आइटमों के मेरे ऑर्डर [Order] की स्थिति क्या है",
+      "codeMix": "जीवा बाजरी आटा Raw प्रेस्सेरी Pressery प्रोटीन Protein मिल्कशेक Milkshake हल्दीराम गुलाब जामुन आइटमों के मेरे Order की स्थिति क्या है"
+    },
+    {
+      "src_sent": "Can I dispute my PayTM reward?",
+      "tgt_sent": "क्या मैं अपने पेटीएम [PayTM] रिवॉर्ड [reward] पर विवाद कर सकता हूँ",
+      "codeMix": "क्या मैं अपने PayTM reward पर विवाद कर सकता हूँ"
+    },
+    {
+      "src_sent": "How heavy is the traffic on National Highway Number Thirteen?",
+      "tgt_sent": "राष्ट्रीय राजमार्ग नम्बर [Number] तेरह पर यातायात कितना भारी है",
+      "codeMix": "राष्ट्रीय राजमार्ग Number तेरह पर यातायात कितना भारी है"
+    },
+    {
+      "src_sent": "He is still on the run, and a large-scale police search is underway.",
+      "tgt_sent": "वह [breathing] अब भी फ़रार [breathing] है [inhaling] और [inhaling] बड़े पैमाने पर पुलिस [police] [breathing] की तलाश चल रही है",
+      "codeMix": "वह अब भी फ़रार है और बड़े पैमाने पर police की तलाश चल रही है"
+    }
+  ],
+  "batch_4": [
+    {
+      "src_sent": "You can check if my Jio Payment Bank account 378614986136 supports Airtel Money or not.",
+      "tgt_sent": "आप जाँच सकते है कि मेरा जिओ [jio] पेमेंट [payment] बैंक [bank] खाता सैंतीस सतासी चौदह छियासी तेरह इकसठ पाँच सौ छत्तीस एयरटेल [Airtel] मनी [money] का समर्थन करता है या नहीं",
+      "codeMix": "आप जाँच सकते है कि मेरा Jio पेमेंट बैंक खाता 378614986136 Airtel Money का समर्थन करता है या नहीं"
+    },
+    {
+      "src_sent": "When will my award from Jobong end?",
+      "tgt_sent": "जबौंग [Jobong] से मेरा पुरस्कार कब समाप्त होगा",
+      "codeMix": "Jobong से मेरा पुरस्कार कब समाप्त होगा"
+    },
+    {
+      "src_sent": "She is depicted with eight arms and is seated on a tiger.",
+      "tgt_sent": "उन्हें आठ भुजाओं के साथ दर्शाया गया है और वह एक बाघ पर बैठी हुई है",
+      "codeMix": "उन्हें आठ arms के साथ दर्शाया गया है और वह एक tiger पर बैठी हुई है"
+    },
+    {
+      "src_sent": "Is there enough money in my Central Bank of India account to carry out a transaction of one hundred rupees?",
+      "tgt_sent": "क्या मेरे सेंट्रल [Central] बैंक [Bank] ऑफ़ [of] इंडिया [India] खाते में सौ रुपये का लेन-देन करने के लिए पर्याप्त पैसा है",
+      "codeMix": "क्या मेरे Central Bank of India खाते में सौ रुपये का लेन-देन करने के लिए पर्याप्त पैसा है"
+    },
+    {
+      "src_sent": "Can you add my Capital Small Finance Bank credit card to the list of payment methods on Hotstar?",
+      "tgt_sent": "क्या आप मेरे कैपिटल [Capital] स्माल [Small] फाइनेंस [Finance] बैंक [Bank] क्रेडिट [Credit] कार्ड [Card] को हॉटस्टार [Hotstar] पर भुगतान तरीकों की सूची पर जोड़ सकते हो",
+      "codeMix": "क्या आप मेरे Capital Small Finance Bank Credit Card को Hotstar पर भुगतान तरीकों की सूची पर जोड़ सकते हो"
+    }
+  ],
+  "batch_5": [
+    {
+      "src_sent": "I recently purchased a geyser from Intex company, and it's excellent. It has a seven-liter water capacity and heats the water quickly. It's also providing very good service.",
+      "tgt_sent": "हाल ही में मैंने एन्टेक्स [Intex] कम्पनी [Company] का गीजर [Geyser] खरीदा है वह बहुत बढ़िया है सात लीटर पानी की केपेसिटी [Capacity] है उसकी [inhaling] और त्वरित पानी गर्म कर देता है और बहुत अच्छी सर्विस [Service] दे रहा है",
+      "codeMix": "हाल ही में मैंने Intex कम्पनी का Geyser खरीदा है और वह बहुत बढ़िया है। इसकी सात लीटर पानी की Capacity है और यह त्वरित पानी गर्म कर देता है। इसकी Service भी बहुत अच्छी है।"
+    },
+    {
+      "src_sent": "Donate eight hundred rupees to HelpAge.",
+      "tgt_sent": "आठ सौ रुपये मदर [mother] हेल्पऐज [helpage] को दान करें",
+      "codeMix": "आठ सौ रुपये HelpAge को दान करें जो कि मदर के लिए बहुत ही उपयोगी होगा।"
+    },
+    {
+      "src_sent": "Currently, our spiritual guru is Baba Ramdev, who teaches us about yoga and provides us with numerous benefits, knowledge, and motivation, which greatly inspires our body.",
+      "tgt_sent": "वर्तमान में [horn] हमारे आध्यामिक आध्यात्मिक गुरु बाबा रामदेव हैं जो कि हमारे योगा के बारे में बताते हैं और जो कि बहुत ज़्यादा हमें सुविधा उन से मिलती है और एक ज्ञान की बाते मिलती है और हमारे शरीर में बहुत ज़्यादा मोटिवेटेन्स [motivation] होता है",
+      "codeMix": "वर्तमान में हमारे आध्यात्मिक गुरु Baba Ramdev हैं जो कि हमें Yoga के बारे में सिखाते हैं और हमें बहुत सारे Benefits, Knowledge और Motivation प्रदान करते हैं जो कि हमारे शरीर को बहुत प्रेरित करता है।"
+    },
+    {
+      "src_sent": "Enable Amazon Pay mobile notifications and turn off email notifications.",
+      "tgt_sent": "अमेज़न [Amazon] पे [Pay] मोबाइल [Mobile] सूचनाऐं समक्ष करें और ईमेल [Email] सूचनाऐं बंद करें",
+      "codeMix": "अमेज़न Pay की मोबाइल सूचनाएं चालू करें और Email सूचनाएं बंद करें।"
+    }
+  ],
+  "batch_6": [
+    {
+      "src_sent": "Yes, the song I always like to hum is [inhaling] \"Tu Long Ve Main Elaichi Tere Peeche Aa Gavachi\" [inhaling]. I always keep humming this song, and I really like it.",
+      "tgt_sent": "हाँ जो मैं हमेशा गुन-गुनाना पसंद करता हूँ वह [inhaling] गाना है तू लौंग वे मैं इलायची तेरे पीछे आ गवाची [inhaling] इस गाने को मैं हमेशा गुन-गुनाता रहता हूँ और ये मुझे काफ़ी पसंद हैं",
+      "codeMix": "हाँ, मैं हमेशा [inhaling] \"Tu Long Ve Main Elaichi Tere Peeche Aa Gavachi\" [inhaling] गुन-गुनाना पसंद करता हूँ, और मुझे ये गाना काफ़ी पसंद हैं"
+    },
+    {
+      "src_sent": "My virtual payment address is being changed from 7300780588 at the rate axis to 803812183 at the rate axis.",
+      "tgt_sent": "मेरे वर्चुअल [virtual] भुगतान पते को तिहत्तर जीरो [zero] सत्तावन अठाइस अस्सी अट्ठावन एट [at] द [the] रेट [rate] एक्सिस [axis] से अस्सी तिरासी बारह अस्सी इक्कीस तीन एट [at] द [the] रेट [rate] एक्सिस [axis] में बदल स बदलें",
+      "codeMix": "मेरा वर्चुअल पेमेंट एड्रेस [virtual payment address] बदल रहा है 7300780588 से 803812183 पर, दोनों एक्सिस [axis] पर"
+    },
+    {
+      "src_sent": "Suspend my Axis Bank line account indefinitely because it seems like someone has hacked it.",
+      "tgt_sent": "मेरे एक्सिस [Axix] बैंक [Bank] के [uhh] [chiming] लाइन [Line] खाते को अनिश्चित काल के लिए निलंबित कर दें क्योंकि ऐसा लगता है कि किसी ने इसे हैक [Hack] कर लिया है",
+      "codeMix": "मेरा एक्सिस बैंक अकाउंट [Axis Bank account] को अनिश्चित काल के लिए निलंबित कर दें, लगता है किसी ने इसे हैक [hack] कर लिया है"
+    },
+    {
+      "src_sent": "He is set to appear in a Florida court on Wednesday in connection with the SunCruz case.",
+      "tgt_sent": "वह सनक्रूज़[suncruz] मामले के संबंध मे बुधवार को फ्लोरिडा [Florida] [clicking] की एक अदालत में पेश होने वाले हैं",
+      "codeMix": "वह बुधवार को फ्लोरिडा [Florida] कोर्ट में सनक्रूज़ [SunCruz] केस के सिलसिले में पेश होंगे"
+    },
+    {
+      "src_sent": "Why is the price of Ashirwad iodine salt more than the MRP?",
+      "tgt_sent": "आशीर्वाद आयोडीन [iodine] युक्त नमक की कीमत एम [M] आर [R] पी [P] से अधिक क्यों",
+      "codeMix": "आशीर्वाद आयोडीन सॉल्ट [iodine salt] की कीमत MRP से ज्यादा क्यों है?"
+    }
+  ],
+  "batch_7": [
+    {
+      "src_sent": "Can you help me find the ESIc centres providing ECG services in the state of Odisha?",
+      "tgt_sent": "क्या आप राज्य ओडिशा में ई [E] सी [C] जी [G] सेवाएँ देने वाले ई [E] एस [S] आई [I] सी [C] केंद्रों को ढूंढने में मदद कर सकते हैं",
+      "codeMix": "क्या आप ओडिशा में ECG सेवाएँ देने वाले ESIc केंद्रों को ढूंढने में मेरी मदद कर सकते हैं?"
+    },
+    {
+      "src_sent": "Corbevax vaccination center is not available in Anantnag district.",
+      "tgt_sent": "कॉर्बेवैक्स [Corbevax] टीकाकरण केंद्र अनंतनाग ज़िले में उपस्थित नहीं है",
+      "codeMix": "अनंतनाग ज़िले में Corbevax टीकाकरण केंद्र उपलब्ध नहीं है"
+    },
+    {
+      "src_sent": "Can you help me find the ESI centers in the area with pin code 7696 and center type PMJAY?",
+      "tgt_sent": "क्या आप पिन [PIN] कोड [Code] सात छः नौ छः दोनों और केंद्र प्रकार पी [P] एम [M] जे [J] ए [A] वाई [Y] वाले क्षेत्र में मौजूद ई [E] एस [S] आई [I] सी [C] केंद्रों को ढूंढने में मेरी मदद कर सकते हैं",
+      "codeMix": "क्या आप पिन कोड 7696 और केंद्र प्रकार PMJAY वाले क्षेत्र में ESI केंद्रों को ढूंढने में मेरी मदद कर सकते हैं?"
+    },
+    {
+      "src_sent": "I want to remove Don Monte California Almond from my product list.",
+      "tgt_sent": "मैं डॉन [Don] मोंटे कैलिफ़ोर्निया [California] आल्मंड [Almond] को अपनी वस्तुओं की सूची से हटाना चाहता हूँ",
+      "codeMix": "मैं Don Monte California Almond को अपनी वस्तुओं की सूची से हटाना चाहता हूँ"
+    },
+    {
+      "src_sent": "This description is different from the description of the Sufi poet Jaisi.",
+      "tgt_sent": "यह वर्णन सूफी कवि जायसी के वर्णन से भिन्न है",
+      "codeMix": "यह वर्णन Sufi कवि जायसी के वर्णन से भिन्न है"
+    },
+    {
+      "src_sent": "To download the vaccination certificate for phone number 64505304568588, the OTP is 768511.",
+      "tgt_sent": "फ़ोन [phone] नंबर [number] छः पाँच [squeak] शून्य तीन [talking] पाँच शून्य चार छः पाँच आठ आठ के लिए टीकाकरण प्रमाणपत्र [noise] डाउनलोड [download] करने के लिए ओ [O] टी [T] पी [P] सात छै आठ पाँच एक एक है",
+      "codeMix": "फ़ोन नंबर 64505304568588 के लिए टीकाकरण प्रमाणपत्र डाउनलोड करने के लिए OTP 768511 है"
+    }
+  ],
+  "batch_8": [
+    {
+      "src_sent": "Is it on the twenty-third weekend?",
+      "tgt_sent": "क्या तेइस सप्ताहांत पर है",
+      "codeMix": "क्या यह twenty-third सप्ताहांत पर है?"
+    },
+    {
+      "src_sent": "My PRAN number is 2242727467615. Can you check my current holdings in APY?",
+      "tgt_sent": "मेरा पी [P] आर [R] ए [A] एन [N] नम्बर [Number] दो दो सात चार दो सात चार छः छः सात एक पाँच है क्या आप ए [A] पी [P] वाई [Y] में मेरी मौजूदा होल्डिंग्स [Holdings] चेक [Check] कर सकते हैं",
+      "codeMix": "मेरा PRAN नम्बर 2242727467615 है, क्या आप मेरी current होल्डिंग्स को APY में चेक कर सकते हैं?"
+    },
+    {
+      "src_sent": "An OTP has been sent to phone number 636894125755. Please enter it to download the vaccination certificate for beneficiary Ravina Bhanod.",
+      "tgt_sent": "फोन [Phone] नंबर [Number] छः तीन छः आठ नौ चार एक दो [breathing] सात पाँच पाँच पर एक ओ टी पी भेजा गया है [breathing] कृपया इसे लाभार्थी नाम रवीना भानोद के लिए [breathing] टीका प्रमाणपत्र डाउनलोड [Download] करने के लिए दर्ज करें",
+      "codeMix": "फोन नंबर 636894125755 पर एक OTP भेजा गया है, कृपया इसे लाभार्थी Ravina Bhanod के लिए vaccination प्रमाणपत्र डाउनलोड करने के लिए दर्ज करें"
+    },
+    {
+      "src_sent": "Have I received any cashback from online transactions on Paypage in the last three weeks?",
+      "tgt_sent": "क्या मुझे पेपेज [Paypage] पर पिछले तीन सप्ताह में ऑनलाइन [online] लेन-देन से कोई कैशबैक [Cashback] मिला है?",
+      "codeMix": "क्या मुझे Paypage पर पिछले तीन सप्ताह में online लेन-देन से कोई cashback मिला है?"
+    },
+    {
+      "src_sent": "I have to keep two kids engaged, tell me what to do.",
+      "tgt_sent": "मुझे दो बच्चों को व्यस्त रखना है मुझे बताओ क्या करना है",
+      "codeMix": "मुझे दो बच्चों को engaged रखना है, मुझे बताओ क्या करना है"
+    },
+    {
+      "src_sent": "Find the ESIC centers providing blood storage services located in the area with the PIN code 300769.",
+      "tgt_sent": "पिन [PIN] कोड [Code] एक तीन शून्य सात छह नौ वाले क्षेत्र में स्थित और ब्लड [Blood] स्टोरेज़ [Storage] सेवाएँ देने वाले ई [E] एस [S] आई [I] सी [C] केंद्रों का पता लगाएँ",
+      "codeMix": "पिन कोड 300769 वाले क्षेत्र में स्थित ESIC केंद्रों का पता लगाएँ जो blood storage सेवाएँ प्रदान करते हैं"
+    }
+  ],
+  "batch_10": [
+    {
+      "src_sent": "English: The Times of India, The Economic Times, The Hindustan Times, and The Hindu are English-language newspapers circulated in the city.",
+      "tgt_sent": "द [The] टाइम्स [Times] ऑफ [Of] इंडिया [India] [inhaling] द [The] इकोनॉमिक [Economic] टाइम्स [Times] द [The] हिंदुस्तान [Hindustan] टाइम्स [Times] द [The] हिंदू [Hindu] सहर में प्रसारित अंग्रेजी भाषा के [inhaling] समाचार पत्र हैं",
+      "codeMix": "द [The] टाइम्स [Times] ऑफ [Of] इंडिया [India] और द [The] इकोनॉमिक [Economic] टाइम्स [Times] द [The] हिंदुस्तान [Hindustan] टाइम्स [Times] द [The] हिंदू [Hindu] सहर में प्रसारित होने वाले अंग्रेजी भाषा के समाचार पत्र हैं"
+    },
+    {
+      "src_sent": "With the arrival of the British in 1845, Raipur gained prominence over the capital Ratanpur.",
+      "tgt_sent": "अठारह सौ पैंतालीस में अंग्रेजों के आगमन के साथ राजधानी रतनपुर से ज़्यादा रायपुर ने प्रमुखता प्राप्त की",
+      "codeMix": "अठारह सौ पैंतालीस में British के आगमन के साथ राजधानी रतनपुर से ज़्यादा रायपुर ने प्रमुखता प्राप्त की"
+    },
+    {
+      "src_sent": "What is the current breaking news about the economy?",
+      "tgt_sent": "अर्थव्यवस्था के बारे में वर्तमान ब्रेकिंग [Breaking] न्यूज [news] क्या है?",
+      "codeMix": "अर्थव्यवस्था के बारे में वर्तमान Breaking News क्या है?"
+    },
+    {
+      "src_sent": "Have I received any cashback on my phone from online transactions over the last four weeks?",
+      "tgt_sent": "क्या मुझे फ़ोन [phone] पे पर पिछले चार सप्ताह से ऑनलाइन [online] लेन-देन से कोई कैशबैक [cashback] मिला है",
+      "codeMix": "क्या मुझे अपने Phone पर पिछले चार सप्ताह से Online लेन-देन से कोई Cashback मिला है"
+    },
+    {
+      "src_sent": "The listed price of Future Organics Granular Jaggery is not correct compared to the market prices.",
+      "tgt_sent": "फ्यूचर [Future] ऑर्गॅनिक्स [Organics] ग्रैनुलर [Granular] जेगरी [Jaggery] की उल्लिखित कीमत बाज़ार की कीमतों की तुलना में सही नहीं है",
+      "codeMix": "फ्यूचर Organics के Granular Jaggery की उल्लिखित कीमत बाज़ार की कीमतों की तुलना में सही नहीं है"
+    },
+    {
+      "src_sent": "Open the MobiKwik QR code scanner and upload the first picture from my gallery to scan.",
+      "tgt_sent": "मोबीक्विक [MobiKwik] क्यू [Q] आर [R] कौड [Code] इस्कैनर [Scanner] खोलें और इस्कैन [Scan] करने के लिए मेरी गैलरी [Gallery] से पहली तस्वीर अपलोड [Upload] करें",
+      "codeMix": "MobiKwik QR Code Scanner खोलें और Scan करने के लिए मेरी Gallery से पहली तस्वीर Upload करें"
+    }
+  ],
+  "batch_11": [
+    {
+      "src_sent": "Can you help me find the ESI centers in the area with pin code 666087 that provide emergency services?",
+      "tgt_sent": "क्या आप पिन [pin] कोड [code] छः छः छः शून्य आठ सात वाले क्षेत्र में मौजूद ई [E] एस [S] आई [I] सी [C] केंद्रों को ढूँढने में [inhaling] मदद कर सकते हैं जो आपात सेवाएँ देते हैं",
+      "codeMix": "क्या आप पिन code 666087 वाले क्षेत्र में मौजूद ESI केंद्रों को ढूँढने में मदद कर सकते हैं जो emergency services देते हैं"
+    },
+    {
+      "src_sent": "My payment status shows successful, however, my order of Just Laid Brown Eggs, Bingo Potato Chips, and Ching's Paneer Mirch Masala has not been confirmed yet.",
+      "tgt_sent": "मेरी भुगतान स्थिति सफल दिखती है हालाँकि जस्ट [Just] लेड [Laid] भूरे एग्स [Eggs] [inhaling] बिंगो [Bingo] पोटैटो [Potato] चिप्स [Chips] और चिंग्स [Ching's] पनीर मिर्च मसाला वाले मेरे आर्डर [Order] की अभी [inhaling] पुष्टि नहीं हुई है [motorcycle]",
+      "codeMix": "मेरी payment status सफल दिखती है हालाँकि मेरे Just Laid Brown Eggs, Bingo Potato Chips, और Ching's Paneer Mirch Masala वाले आर्डर की अभी पुष्टि नहीं हुई है"
+    },
+    {
+      "src_sent": "Give me information about the song that's playing.",
+      "tgt_sent": "जो गाना चल रहा है उसके बारे में मुझे जानकारी दें",
+      "codeMix": "जो song चल रहा है उसके बारे में मुझे जानकारी दें"
+    },
+    {
+      "src_sent": "Filter the vaccination centers for Covovax vaccine in Boudh district.",
+      "tgt_sent": "ज़िला बौद्ध में [inhaling] कोवोवैक्स [Covovax] टीके के लिए टीकाकरण केंद्र फ़िल्टर [Filter] करें",
+      "codeMix": "बौद्ध ज़िला में Covovax टीके के लिए vaccination केंद्र filter करें"
+    },
+    {
+      "src_sent": "Show me the free vaccination centers in the area with the PIN code 844225 where vaccination is only for the 18 plus age group.",
+      "tgt_sent": "पिन [PIN] कोड [Code] आठ चार चार दो दो पाँच वाले [inhaling] क्षेत्र में मुझे निःशुल्क [inhaling] टीकाकरण केंद्र दिखाएँ जिसमें केवल अठारह [inhaling] प्लस [Plus] वर्ष आयु वर्ग के लिए टीकाकरण हो",
+      "codeMix": "पिन code 844225 वाले क्षेत्र में मुझे free vaccination केंद्र दिखाएँ जिसमें केवल 18 plus आयु वर्ग के लिए vaccination हो"
+    },
+    {
+      "src_sent": "Alexa, what else is on my list?",
+      "tgt_sent": "एलेक्सा [Alexa] मेरी सूची में और क्या है",
+      "codeMix": "Alexa, मेरी सूची में और क्या है"
+    }
+  ],
+  "batch_12": [
+    {
+      "src_sent": "Which government-aided institutions were approved by AICTE in the academic year 2018-2019?",
+      "tgt_sent": "शैक्षणिक वर्ष दो हज़ार अट्ठारह दो हज़ार उन्नीस में कौन सी सरकारी सहायता प्राप्त संस्थान ए [A] आई [I] सी [C] टी [T] आई [I] द्वारा अनुमोदित हैं",
+      "codeMix": "शैक्षणिक वर्ष 2018-2019 में कौन सी सरकारी सहायता प्राप्त संस्थान AICTE द्वारा अनुमोदित हैं"
+    },
+    {
+      "src_sent": "Games are very essential in life because they help maintain good physical health, build stamina, and you don't get tired easily, and with this, you can also earn a living.",
+      "tgt_sent": "खेल जीवन में बहुत जरूरी है क्योंकि इस से अपना शारीरिक स्वास्थ्य अच्छा रहता है [swallowing] इस्टैमिना [Stamina] बना लेता है और आप जल्दी थकते नहीं हो [inhaling] और इससे [stammers] अपना पैसे पेश",
+      "codeMix": "खेल जीवन में बहुत जरूरी है क्योंकि इस से अपना शारीरिक स्वास्थ्य अच्छा रहता है और Stamina बना लेता है, आप जल्दी थकते नहीं हो और इससे आप पैसे कमा सकते हैं"
+    },
+    {
+      "src_sent": "Delete the list of guests I made last week.",
+      "tgt_sent": "जो मेहमानों की सूची मैंने पिछले सप्ताह बनाई थी उसे हटा दो",
+      "codeMix": "पिछले सप्ताह मैंने जो guest list बनाई थी उसे हटा दो"
+    },
+    {
+      "src_sent": "Can I know about the nearby ESI centres in Balaghat district, close to my current location?",
+      "tgt_sent": "क्या मैं बालाघाट ज़िले में अपने मौजूदा स्थान के नज़दीकी [noise] ई [E] एस [S] आई [I] सी [C] केंद्रों के बारे में जान सकता हूँ",
+      "codeMix": "क्या मैं बालाघाट ज़िले में अपने current location के नज़दीकी ESI केंद्रों के बारे में जान सकता हूँ"
+    },
+    {
+      "src_sent": "This is particularly applicable to the short components of the rhythm [inhaling] and does not necessarily apply to the entire rhythm.",
+      "tgt_sent": "यह विशेष रूप से तलाम के लघु घटकों [inhaling] पर लागू होता है और जरूरी नहीं कि यह पूरी तलाम पर लागू हो",
+      "codeMix": "यह विशेष रूप से rhythm के short components पर लागू होता है और जरूरी नहीं कि यह पूरी rhythm पर लागू हो"
+    }
+  ],
+  "batch_13": [
+    {
+      "src_sent": "There are certain postures that help increase our flexibility and strength, such as Dhanurasana. This posture helps a lot in increasing strength and flexibility in various parts of our body, including our muscles, stomach, chest, etc.",
+      "tgt_sent": "जी ऐसे कुछ आसन हैं जो हमारे लचीलापन और ताकत बढ़ाने में मदद करते हैं जैसे धनुरासन वह आसन हमारे शरीर में जैसे हमारी मांसपेशियाँ हमारे पेट हमारी छाती आदि इन सबमें बढ़ाने में ताकत देने में और लचीलापन में बहुत ही मदद करते हैं",
+      "codeMix": "जी certain postures जैसे Dhanurasana हमारे flexibility और strength बढ़ाने में मदद करते हैं और हमारे muscles, stomach, chest आदि में ताकत देने में बहुत ही मदद करते हैं"
+    },
+    {
+      "src_sent": "I really enjoy singing with the tabla, and if there's also a harmonium or a guitar, it's even better. The melody of the song comes together, and it's a lot of fun to sing. It feels great to us.",
+      "tgt_sent": "मुझे गाना तबले पे बहुत पसंद है [inhaling] और फिर [umm] [stammers] उसके साथ तबले के साथ हारमोनियम [Harmonium] हो [inhaling] कीटार [Guitar] हो तो और भी अच्छा है गाना का स्वर भी बनता है और गाने में मज़ा भी आता है बहुत अच्छा लगता है हमें",
+      "codeMix": "मुझे singing with tabla बहुत पसंद है और अगर Harmonium या Guitar भी हो तो और भी अच्छा है song का melody बनता है और singing में मज़ा आता है"
+    },
+    {
+      "src_sent": "Please turn off the voice.",
+      "tgt_sent": "कृपया आवाज को बंद कर दें",
+      "codeMix": "कृपया voice को बंद कर दें"
+    },
+    {
+      "src_sent": "The fort has several connected buildings constructed at different times, among which the most notable is the king's palace.",
+      "tgt_sent": "किले में अलग-अलग समय पर बनाई गई कई जुड़ी [uhh] हुई इमारतें हैं [inhaling] जिनमें से सबसे उल्लेखनीय है राजा का महल",
+      "codeMix": "किले में several connected buildings हैं जिनमें से सबसे उल्लेखनीय है king's palace"
+    },
+    {
+      "src_sent": "Will it rain tonight?",
+      "tgt_sent": "क्या आज रात गीली होगी",
+      "codeMix": "क्या आज रात rain होगी"
+    }
+  ],
+  "batch_14": [
+    {
+      "src_sent": "During winters, the temperature remains between 20 to 30 degrees Celsius from mid-October to mid-March.",
+      "tgt_sent": "सर्दियों के दौरान अक्टूबर [October] के मध्य से मार्च [March] के मध्य तक तापमान बीस से तीस डिग्री [Degree] सेल्सियस [Celsius] के बीच रहता है",
+      "codeMix": "सर्दियों के दौरान October के मध्य से March के मध्य तक तापमान 20 से 30 Degree Celsius के बीच रहता है"
+    },
+    {
+      "src_sent": "What is the status of my order for Fresho Signature Handmade Spinach Lavash?",
+      "tgt_sent": "फ़्रेशो [Fresho] सिग्नेचर [Signature] हैंडमेड [Handmade] स्पिनच [Spinach] लवाश [Lavash] के मेरे ऑर्डर [Order] की स्थिति क्या है",
+      "codeMix": "Fresho Signature Handmade Spinach Lavash के मेरे Order की स्थिति क्या है"
+    },
+    {
+      "src_sent": "Can I switch to another brand of liquid detergent for washing Ragi malt?",
+      "tgt_sent": "क्या मैं माना रागी [ragi] मॉल्ट [malt] लिक्विड [liquid] डिटर्जेंट [detergent] के दूसरे ब्रांड [brand] से बदल सकता हूँ",
+      "codeMix": "क्या मैं Ragi Malt के लिए Liquid Detergent के दूसरे Brand से बदल सकता हूँ"
+    },
+    {
+      "src_sent": "Can I get the cookies immediately?",
+      "tgt_sent": "क्या मैं कुकीज़ [Cookies] तुरंत प्राप्त कर सकता हूँ",
+      "codeMix": "क्या मैं Cookies तुरंत प्राप्त कर सकता हूँ"
+    },
+    {
+      "src_sent": "Take an Uber to the airport.",
+      "tgt_sent": "हवाई अड्डे के लिए उबर [Uber] करो",
+      "codeMix": "हवाई अड्डे के लिए Uber करो"
+    },
+    {
+      "src_sent": "It is said that the car has temporary plates, and it is also said that it has black-tinted windows and a sunroof.",
+      "tgt_sent": "कहा जाता है कि कार [Car] पर एक अस्थायी प्लेटें हैं और यह भी कहा जाता है कि इसमें काले शीशे वाली खिड़कियाँ और एक खुल सकने वाली छत है",
+      "codeMix": "कहा जाता है कि Car पर अस्थायी प्लेटें हैं और इसमें Black-Tinted Windows और Sunroof है"
+    },
+    {
+      "src_sent": "On January 21, 2022, Prime Minister Narendra Modi announced that a statue of Subhash Chandra Bose would be installed at India Gate in a canopy.",
+      "tgt_sent": "इक्कीस जनवरी [january] दो हज़ार बाईस को प्रधानमंत्री नरेंद्र मोदी ने घोषणा की कि सुभाष चंद्र बोस की एक प्रतिमा इंडिया [india] गेट [gate] पर चंदवा में स्थापित की जाएगी",
+      "codeMix": "इक्कीस January दो हज़ार बाईस को प्रधानमंत्री नरेंद्र मोदी ने घोषणा की कि सुभाष चंद्र बोस की एक प्रतिमा India Gate पर चंदवा में स्थापित की जाएगी"
+    }
+  ],
+  "batch_15": [
+    {
+      "src_sent": "To register for vaccination, use mobile number 686170000518 and OTP 960532.",
+      "tgt_sent": "टीकाकरण के लिए मोबाइल [Mobile] नंबर [number] छः आठ छः एक सात शून्य शून्य शून्य पाँच एक आठ पंजीकृत करने के लिए ओ [O] टी [T] पी [P] नौ छः शून्य पाँच तीन दो का उपयोग करें",
+      "codeMix": "टीकाकरण के लिए अपने Mobile नंबर 686170000518 और OTP 960532 का उपयोग करें"
+    },
+    {
+      "src_sent": "What is the minimum monthly income required for laptop insurance from Repco Finance?",
+      "tgt_sent": "रेपको [repco] फाइनेंस [Finance] से लैपटॉप [laptop] बीमा बीमा के लिए आवश्यक न्यूनतम मासिक आय क्या है?",
+      "codeMix": "रेपको Finance से लैपटॉप insurance के लिए आवश्यक न्यूनतम मासिक आय क्या है?"
+    },
+    {
+      "src_sent": "Baidyanath Nagpur Bilv ear oil is costlier than yesterday, why is that so?",
+      "tgt_sent": "बैद्यनाथ नागपुर बिल्व [Bilv] इअर [ear] ऑयल [oil] कल से ज़्यादा महँगा क्यों है",
+      "codeMix": "बैद्यनाथ नागपुर Bilv ear oil कल से ज़्यादा महँगा क्यों है"
+    },
+    {
+      "src_sent": "In the end of eighteen forty-five, the First Anglo-Sikh War began, and a battle took place between British and Sikh soldiers near Ferozepur.",
+      "tgt_sent": "अट्ठारह [noise] सौ पैंतालिस के अंत में प्रथम आंगल्ल सुक सिख युद्ध की शुरुआत करते हुए फिरोज़पुर के पास [throat_clearing] ब्रिटिश [britsh] और सिख सैनिकों में युद्ध हो गया",
+      "codeMix": "अट्ठारह forty-five के अंत में प्रथम Anglo-Sikh युद्ध की शुरुआत करते हुए फिरोज़पुर के पास British और सिख सैनिकों में युद्ध हो गया"
+    },
+    {
+      "src_sent": "Is there any ESI centre in the state of Nagaland that provides microbiology services and whose centre type is regional office?",
+      "tgt_sent": "क्या राज्य नागालैंड में कोई ई [E] एस [S] आई [I] सी [C] केंद्र है जो माइक्रोबायोलॉजी [Microbiology] सेवाएँ देते हैं और जिनका केंद्र प्रकार रीजनल [regional] ऑफ़िस [office] है?",
+      "codeMix": "क्या राज्य नागालैंड में कोई ESI केंद्र है जो Microbiology सेवाएँ देते हैं और जिनका केंद्र प्रकार regional office है?"
+    }
+  ],
+  "batch_16": [
+    {
+      "src_sent": "Show me my EPY pension amount, my PRAN number is 86126618185216.",
+      "tgt_sent": "मेरी ए [A] पी [P] वाई [Y] पेंशन [pension] राशि दिखाएँ मेरा पी [P] आर [R] ए [A] एन [N] नंबर [number] आठ छः एक दो छः छः एक आठ पाँच दो एक छः है",
+      "codeMix": "मेरी EPY पेंशन राशि दिखाएँ, मेरा PRAN नंबर 86126618185216 है"
+    },
+    {
+      "src_sent": "Are there any discounted items in the Brownies Basket category?",
+      "tgt_sent": "क्या ब्राउनीज़ [Brownies] बास्केट [Basket] श्रेणी में कोई छूट वाली आइटम्स [Items] है",
+      "codeMix": "क्या Brownies Basket श्रेणी में कोई छूट वाली items है?"
+    },
+    {
+      "src_sent": "The latest movies in cinemas.",
+      "tgt_sent": "सिनेमा घरों में नवीनतम फिल्में",
+      "codeMix": "सिनेमा घरों में latest movies हैं"
+    },
+    {
+      "src_sent": "Please add to my contact lists and send them a reminder email.",
+      "tgt_sent": "कृपया मेरी संपर्क सूचियों में जोड़ें [bird_squawk] और उन्हें एक अनुस्मारक ईमेल [Email] भेजें",
+      "codeMix": "कृपया मेरी contact lists में जोड़ें और उन्हें एक reminder email भेजें"
+    },
+    {
+      "src_sent": "What is the traffic situation outside my office?",
+      "tgt_sent": "[noise] मेरे कार्यालय के बाहर यातायात की क्या स्थिति है",
+      "codeMix": "मेरे office के बाहर traffic situation क्या है?"
+    },
+    {
+      "src_sent": "Body parts located in a cavity are often described in relation to that cavity.",
+      "tgt_sent": "शारीरिक अंग जिस गुहा में स्थित हों अक्सर उसी के संदर्भ [inhaling] में वर्णित किए जाते हैं",
+      "codeMix": "शारीरिक अंग जिस cavity में स्थित हों अक्सर उसी के संदर्भ में वर्णित किए जाते हैं"
+    },
+    {
+      "src_sent": "Give us news about the presidential election.",
+      "tgt_sent": "हमें राष्ट्रपति चुनाव की ख़बर दो",
+      "codeMix": "हमें presidential election की ख़बर दो"
+    },
+    {
+      "src_sent": "To complete your vaccination registration for mobile number eight three zero four nine zero seven two three eight nine, please enter a PIN.",
+      "tgt_sent": "मोबाइल [mobile] नंबर [number] आठ तीन जीरो [zero] चार नौ जीरो [zero] सात दो तीन आठ नौ के लिए अपना टीका पंजीकरण पूरा करने के लिए कृपया एक पिन [pin] दर्ज करें।",
+      "codeMix": "मोबाइल नंबर 83049072389 के लिए अपना vaccination registration पूरा करने के लिए कृपया एक PIN दर्ज करें।"
+    }
+  ],
+  "batch_17": [
+    {
+      "src_sent": "Using Freecharge, transfer eight thousand rupees to select contacts tomorrow at 9 am.",
+      "tgt_sent": "फ़्रीचार्ज [freecharge] का उपयोग करके [breathing] चुनिंदा संपर्कों को आठ हजार रुपये कल सुबह नौ बजे ट्रांसफ़र [transfer] करें",
+      "codeMix": "फ़्रीचार्ज का उपयोग करके select contacts को आठ हजार रुपये कल सुबह नौ बजे transfer करें"
+    },
+    {
+      "src_sent": "How was the weather this week?",
+      "tgt_sent": "इस सप्ताह मौसम कैसा था",
+      "codeMix": "इस सप्ताह weather कैसा था"
+    },
+    {
+      "src_sent": "My favorite food is dal and rice. Dal contains a lot of protein, which is very good for our body.",
+      "tgt_sent": "खाने के लिए मुझे सबसे ज़्यादा पसंदीदा है दाल चावल दाल में बहुत ज़्यादा प्रोटीन [Protin] पाया जाता है जो कि हमारे शरीर के लिए बहुत अच्छा होता है",
+      "codeMix": "मेरा favorite food है दाल और चावल। दाल में बहुत ज़्यादा protein पाया जाता है जो कि हमारे शरीर के लिए बहुत अच्छा होता है"
+    },
+    {
+      "src_sent": "Beyond Snake Kerala banana chips is currently unavailable, it will be available by this month.",
+      "tgt_sent": "बियॉन्ड [Beyond] स्नेक [Snake] केरला बनाना चिप्स [chips] वर्तमान में अनुपलब्ध है, यह इस महीने तक उपलब्ध होगा",
+      "codeMix": "बियॉन्ड स्नेक केरला banana chips वर्तमान में अनुपलब्ध है, यह इस महीने तक उपलब्ध होगा"
+    },
+    {
+      "src_sent": "This film not only received appreciation from critics but also earned a nomination in the Best Actress category at the 12th Filmfare Awards.",
+      "tgt_sent": "इस फ़िल्म [Film] ने न केवल आलोचकों से उनकी सराहना की बल्कि बारहवें फ़िल्मफ़ेयर [Filmfare] पुरस्कारों में [inhaling] सबसे अच्छी अभिनेत्री श्रेणी में नामांकन भी प्राप्त किया",
+      "codeMix": "इस फ़िल्म ने न केवल आलोचकों से उनकी appreciation की बल्कि बारहवें Filmfare पुरस्कारों में सबसे अच्छी अभिनेत्री श्रेणी में nomination भी प्राप्त किया"
+    },
+    {
+      "src_sent": "Can you help me find the ESIC centers in the area with Pin Code 649329 and center type DCBO?",
+      "tgt_sent": "क्या आप पिन [Pin] कोड [Code] छः चार नौ तीन दो नौ [inhaling] और केंद्र प्रकार डी सी बी ओ [DCBO] [inhaling] वाले क्षेत्र में मौजूद ई एस आई सी [ESIC] केंद्रों को ढूंढने में मदद कर सकते हैं",
+      "codeMix": "क्या आप Pin Code 649329 और center type DCBO वाले क्षेत्र में मौजूद ESIC केंद्रों को ढूंढने में मदद कर सकते हैं"
+    }
+  ],
+  "batch_18": [
+    {
+      "src_sent": "I want to remove Hamdard Instant Glucose Energy Drink from my list. Can you remove it from my shopping list?",
+      "tgt_sent": "मैं हमदर्द इंस्टेंट [instant] ग्लूकोज [glucose] एनर्जी [energy] ड्रिंक [drink] हटाना चाहता हूँ क्या आप इसे मेरी ख़रीदारी सूची से निकाल सकते हैं",
+      "codeMix": "मैं हमदर्द Instant Glucose Energy Drink हटाना चाहता हूँ क्या आप इसे मेरी shopping list से निकाल सकते हैं"
+    },
+    {
+      "src_sent": "According to Sami's Futuh-us-Salatin, Iltutmish replied that the days of such hereditary claims were over.",
+      "tgt_sent": "सामी [Sami] के फ़ुतुह-उस-सलातिन [Futuh-us-Salatin] के अनुसार इल्तुतमिश [Iltutmish] ने उत्तर दिया की इस तरह के वंशानुगत दावों के दिन खत्म हो गए थे",
+      "codeMix": "सामी के Futuh-us-Salatin के अनुसार Iltutmish ने उत्तर दिया की इस तरह के hereditary claims के दिन खत्म हो गए थे"
+    },
+    {
+      "src_sent": "He has also served as the Commandant of the Defence Services Staff College.",
+      "tgt_sent": "उन्होंने डिफेंस [defence] सर्विसे [services] स्टाफ [staff] कॉलेज [college] के [inhaling] समादेशक के रूप में भी काम किया है",
+      "codeMix": "उन्होंने Defence Services Staff College के Commandant के रूप में भी काम किया है"
+    },
+    {
+      "src_sent": "What was the price of 0.25 liters of Dabur Badam hair oil yesterday?",
+      "tgt_sent": "कल शून्य दशमलव पच्चीस लीटर डाबर बदाम [inhaling] केश तेल की कीमत क्या थी",
+      "codeMix": "कल 0.25 liters Dabur Badam hair oil की कीमत क्या थी"
+    },
+    {
+      "src_sent": "Their first commercial success was the 1998 Tamil romantic drama Jeans, which was the most expensive film made in Indian cinema at that time.",
+      "tgt_sent": "उनकी पहली व्यावसायिक सफलता उन्नीस सौ अंठानवे में तमिल रोमांटिक [Romantic] ड्रामा [Drama] जींस [Jeans] थी जो उस समय भारतीय सिनेमा [Cinema] में बनाई जाने वाली सबसे महँगी फ़िल्म [Film] थी",
+      "codeMix": "उनकी पहली commercial success थी 1998 Tamil Romantic Drama Jeans, जो उस समय Indian Cinema में बनाई जाने वाली सबसे महँगी Film थी"
+    }
+  ],
+  "batch_19": [
+    {
+      "src_sent": "Find recognized private university institutions that offer diploma-level programs in town planning and are approved by AICTE for the academic year 2020-2021.",
+      "tgt_sent": "मान्यता प्राप्त निजी विश्वविद्यालय संस्थान खोजें जो नगर नियोजन में डिप्लोमा [Diploma] स्तर के कार्यक्रम प्रदान करते हैं और शैक्षणिक वर्ष दो हज़ार बीस से दो हज़ार इक्कीस में ए [A] आई [I] सी [C] टी [T] ई [E] द्वारा अनुमोदित हैं",
+      "codeMix": "मान्यता प्राप्त निजी विश्वविद्यालय संस्थान खोजें जो नगर नियोजन में Diploma स्तर के कार्यक्रम प्रदान करते हैं और शैक्षणिक वर्ष 2020-2021 में AICTE द्वारा अनुमोदित हैं"
+    },
+    {
+      "src_sent": "Make a list of all the medical stores near me that sell generic medicines.",
+      "tgt_sent": "मेरे पास के सभी मैडिकल [Medical] इस्टोरों की सूची बनाएँ जो जेनेरिक [Generic] दवाई बेचते हैं",
+      "codeMix": "मेरे पास के सभी Medical स्टोरों की सूची बनाएँ जो Generic दवाई बेचते हैं"
+    },
+    {
+      "src_sent": "Filter vaccination centers for the Sputnik vaccine with area code [code] nine two seven two nine three.",
+      "tgt_sent": "क्षेत्र कोड [code] नौ दो सात दो नौ तीन वाले स्पुतनिक [Sputnik] टीके के लिए टीकाकरण केंद्र फ़िल्टर [Filter] करें",
+      "codeMix": "क्षेत्र कोड nine two seven two nine three वाले Sputnik टीके के लिए टीकाकरण केंद्र Filter करें"
+    },
+    {
+      "src_sent": "Create a list of Nayanthara's top five pictures.",
+      "tgt_sent": "नयनतारा की शीर्ष पाँच पिक्चरों की सूची बनाओ",
+      "codeMix": "नयनतारा की शीर्ष पाँच Pictures की सूची बनाओ"
+    },
+    {
+      "src_sent": "Add two kilos of Nestle Coco Crunch breakfast cereal to my item list.",
+      "tgt_sent": "मेरी आइटम [item] सूची [horn] में दो किलो [kilo] नेस्ले [Nestle] कोको [Coco] क्रंच [Crunch] ब्रेकफास्ट [Breakfast] सीरियल [Serial] जोड़ें [noise]",
+      "codeMix": "मेरी Item सूची में दो Kilo Nestle Coco Crunch Breakfast Cereal जोड़ें"
+    },
+    {
+      "src_sent": "I haven't received the fragrances since last week, what's the estimated delivery date?",
+      "tgt_sent": "मुझे फ्रेग्रेंसेस [Fragrances] पिछले सप्ताह से प्राप्त नहीं हुई हैं, [inhaling] अनुमानित वितरण तिथि कब है?",
+      "codeMix": "मुझे Fragrances पिछले सप्ताह से प्राप्त नहीं हुई हैं, अनुमानित वितरण तिथि कब है?"
+    }
+  ],
+  "batch_20": [
+    {
+      "src_sent": "I did not receive the correct packet of Falda Pure and Sure smooth coffee powder.",
+      "tgt_sent": "मुझे प्राप्त फलडा प्योर [pure] एँड [and] श्योर [sure] स्मूथ [smooth] कॉफी [smooth] फाउडर [powder] का वरांड सही नहीं है",
+      "codeMix": "मुझे प्राप्त फलडा Pure एँड Sure स्मूथ कॉफी powder का वरांड सही नहीं है"
+    },
+    {
+      "src_sent": "Show me the free vaccination centers in the area with the PIN code 763851 where vaccines are available only for the 15 to 17 age group.",
+      "tgt_sent": "पिन [PIN] कोड [Code] सात छः तीन आठ पाँच एक वाले क्षेत्र में मुझे [phone_vibrating] निःशुल्क टीकाकरण केंद्र दिखाएँ [inhaling] जिसमें केवल पंद्रह सत्रह वर्ष आयु वर्ग के लिए टीके उपलब्ध हैं",
+      "codeMix": "पिन Code 763851 वाले क्षेत्र में मुझे निःशुल्क टीकाकरण केंद्र दिखाएँ जहां 15 से 17 वर्ष आयु वर्ग के लिए टीके उपलब्ध हैं"
+    },
+    {
+      "src_sent": "Can you make the room brighter?",
+      "tgt_sent": "क्या आप कमरे को और उज्जवल बना सकते हैं?",
+      "codeMix": "क्या आप कमरे को और Bright बना सकते हैं?"
+    },
+    {
+      "src_sent": "When will the offers on car items be available? Is it going to happen soon?",
+      "tgt_sent": "कार [car] आइटम्स [items] पर ऑफर [offer] कब उपलब्ध होंगे? क्या यह जल्द ही होने वाला है?",
+      "codeMix": "कार items पर offer कब उपलब्ध होंगे? क्या यह जल्द ही होने वाला है?"
+    },
+    {
+      "src_sent": "Using the phone number 97901132976 and OTP 293838, download my vaccination certificate.",
+      "tgt_sent": "फोन [phone] नंबर [number] नौ सात नौ शून्य एक एक तीन दो नौ सात छः और ओ [O] टी [T] पी [P] दो नौ तीन आठ तीन आठ का [inhaling] उपयोग कर के मेरा टीका प्रमाण पत्र डाउनलोड [download] करें",
+      "codeMix": "फोन number 97901132976 और OTP 293838 का उपयोग कर के मेरा टीका प्रमाण पत्र download करें"
+    }
+  ],
+  "batch_21": [
+    {
+      "src_sent": "Find all the latest scholarship applications for the registered application ID PT 02022728, 6311131592, and date of birth 26/6/2019.",
+      "tgt_sent": "पंजीकृत आवेदन [noise] आई [I] डी [D] पी [P] टी [T] [inhaling] दो शून्य दो दो सात दो आठ [inhaling] छः तीन एक एक एक तीन एक पाँच नौ दो और जन्म तिथि छब्बीस छः दो हज़ार उन्नीस के लिए सभी ताज़ा [inhaling] छात्रवृत्ति आवेदन ढूँढें",
+      "codeMix": "पंजीकृत आवेदन ID PT 02022728, 6311131592, और जन्म तिथि 26/6/2019 के लिए सभी ताज़ा Scholarship Applications ढूँढें"
+    },
+    {
+      "src_sent": "Filter vaccination centers for COVOVAX vaccine in Kanchipuram district.",
+      "tgt_sent": "ज़िला कांचीपुरम में कोवोवैक्स [COVOVAX] टीके के लिए टीकाकरण केंद्र फ़िल्टर [Filter] करें",
+      "codeMix": "Kanchipuram ज़िला में COVOVAX टीके के लिए Vaccination Centers फ़िल्टर करें"
+    },
+    {
+      "src_sent": "Some people pray and circumambulate the fire.",
+      "tgt_sent": "कुछ लोग प्रार्थना करते हैं और आग की परिक्रमा करते हैं",
+      "codeMix": "कुछ लोग प्रार्थना करते हैं और Fire की परिक्रमा करते हैं"
+    },
+    {
+      "src_sent": "What is the price of Borges Vegan Natura Rice and Almond Drink after the discount?",
+      "tgt_sent": "छूट के बाद बोर्जेस [Borges] वीगन [Vegan] नेचुरा [Natura] राइस [Rice] एंड [And] आलमंड [Almond] ड्रिंक [Drink] की कीमत क्या है",
+      "codeMix": "छूट के बाद Borges Vegan Natura Rice और Almond Drink की कीमत क्या है"
+    },
+    {
+      "src_sent": "Transfer an amount of seven thousand rupees to Riddhi Diwan and automatically pay a quarter of it every month for the entire year.",
+      "tgt_sent": "रिद्धि दीवान को सात हज़ार रुपये की राशि ट्रांसफ़र [transfer] करें और पूरे साल के लिए हर महीने इसका एक चौथाई हिस्सा स्वतः चुकाएं",
+      "codeMix": "Riddhi Diwan को ७००० रुपये की राशि Transfer करें और पूरे साल के लिए हर महीने इसका एक चौथाई हिस्सा स्वतः चुकाएं"
+    },
+    {
+      "src_sent": "How much balance is there in my India Post Payments Bank account?",
+      "tgt_sent": "मेरे इंडिया [india] पोस्ट [post] पेमेंट्स बैंक [payments] [inhaling] खाते में कितना बैलेंस [balance] है",
+      "codeMix": "मेरे India Post Payments Bank खाते में कितना Balance है"
+    },
+    {
+      "src_sent": "I am unable to deactivate Atrop for my Amazon.",
+      "tgt_sent": "मैं अपने अमेज़न [Amazon] के लिए एट्रॉप [Atrop] को [inhaling] डीऐक्टिवेट [Deactivate] करने में [horn] असमर्थ हूँ",
+      "codeMix": "मैं अपने Amazon के लिए Atrop को Deactivate करने में असमर्थ हूँ"
+    }
+  ],
+  "batch_22": [
+    {
+      "src_sent": "Unmute the speaker now.",
+      "tgt_sent": "स्पीकर [speaker] को अब अनम्यूट [unmute] करो",
+      "codeMix": "स्पीकर को अब unmute करो"
+    },
+    {
+      "src_sent": "Show me festive offers on dairy items.",
+      "tgt_sent": "मुझे डेरी [Dairy] आइटम्स [Items] पर उत्सव के ऑफ़र [Offer] दिखाएँ",
+      "codeMix": "मुझे Dairy items पर festive ऑफ़र दिखाएँ"
+    },
+    {
+      "src_sent": "Which are all the vaccination centers providing booster doses in the state of Himachal Pradesh?",
+      "tgt_sent": "राज्य हिमाचल प्रदेश में बूस्टर [Booster] डोज़ [Dose] देने वाले सभी टीकाकरण केंद्र कौन से हैं?",
+      "codeMix": "हिमाचल प्रदेश में Booster dose देने वाले टीकाकरण केंद्र कौन से हैं?"
+    },
+    {
+      "src_sent": "Alexa, what's near for dinner?",
+      "tgt_sent": "एलेक्सा [Alexa] डिनर [Dinner] के लिए पास में क्या है",
+      "codeMix": "Alexa, डिनर के लिए पास में क्या है"
+    },
+    {
+      "src_sent": "Can you automatically stop sending five hundred rupees weekly to Aryaman Kumawat and send one hundred rupees to MobiKwik instead?",
+      "tgt_sent": "क्या आप स्वचालित रूप से आर्यमान कुमावत को पाँच सौ रुपये पाक्षिक भेजना बंद कर सकते हैं और [inhaling] एक सौ रुपये मोबीक्विक [MobiKwik] पर भेज सकते हैं",
+      "codeMix": "क्या आप आर्यमान कुमावत को पाँच सौ रुपये पाक्षिक भेजना बंद कर सकते हैं और MobiKwik पर एक सौ रुपये भेज सकते हैं"
+    },
+    {
+      "src_sent": "I want a refund of thirty thousand rupees, which was debited twice.",
+      "tgt_sent": "मुझे [phone_vibrating] तीस हजार रुपये पर रिफ़ंड [Refund] चाहिए [noise] जिसे दो बार डेबिट [Debit] किया गया था",
+      "codeMix": "मुझे तीस हजार रुपये का Refund चाहिए जिसे दो बार Debit किया गया था"
+    },
+    {
+      "src_sent": "What is the current holding in my EPY account with PRAN number 647823759459?",
+      "tgt_sent": "पी [P] आर [R] ए [A] एन [N] नम्बर [number] छः चार सात आठ दो तीन सात पाँच नौ चार पाँच नौ वाले मेरे ए [E] पी [P] वाई [Y] खाते में वर्तमान होल्डिंग [holding] क्या है",
+      "codeMix": "मेरे EPY account में वर्तमान holding क्या है जिसका PRAN number 647823759459 है"
+    },
+    {
+      "src_sent": "The rules of A, F, and A were being commercially distributed.",
+      "tgt_sent": "अंग्रेजी ऐ [A] एफ [F] ए [A] के नियमों को व्यापार रूप से वितरित किया जा रहा था।",
+      "codeMix": "A, F, और A के नियमों को व्यापार रूप से distribute किया जा रहा था"
+    }
+  ],
+  "batch_23": [
+    {
+      "src_sent": "I have an amount of 4161757679367328 rupees stuck in an incomplete transaction in NSDL Payments Bank, when will I get the amount back?",
+      "tgt_sent": "मुझे एन [N] एस [S] डी [D] एल [L] पेमेंट्स [Payments] बैंक [Bank] में [inhaling] चार सौ रुपये से एक चार एक एक पाँच सात छः सात नौ छः सात तीन दो आठ के अटके लेन-देन में राशि [inhaling] वापस कब मिलेगी",
+      "codeMix": "मुझे NSDL Payments Bank में 4161757679367328 रुपये की राशि अटकी हुई है, कब वापस मिलेगी?"
+    },
+    {
+      "src_sent": "Do you keep pet food items?",
+      "tgt_sent": "क्या आप पेट [Pet] फ़ूड [Food] आइटम्स [Items] रखते हैं",
+      "codeMix": "क्या आप Pet Food Items रखते हैं?"
+    },
+    {
+      "src_sent": "Show me all types of dispensers.",
+      "tgt_sent": "मुझे सभी प्रकार के डिसपेंसर [dispenser] दिखाएँ",
+      "codeMix": "मुझे सभी प्रकार के Dispensers दिखाएँ"
+    },
+    {
+      "src_sent": "Currently, there are no vaccination centers available in Haridwar district.",
+      "tgt_sent": "वर्तमान में हरिद्वार ज़िले में कोई भी टीकाकरण केंद्र उपलब्ध नहीं है",
+      "codeMix": "वर्तमान में Haridwar District में कोई भी Vaccination Centers उपलब्ध नहीं है"
+    },
+    {
+      "src_sent": "Deshmukh owns Evolutions, a professional organization for architecture and interior designing in India.",
+      "tgt_sent": "देशमुख का भारत में स्थित वस्तुकला और इंटीरियर [interior] डिजाइनिंग [designing] के व्यावसायिक संगठन इवोल्यूशंस [Evolutions] में स्वामित्व है",
+      "codeMix": "देशमुख का भारत में स्थित Evolutions नामक Interior Designing के व्यावसायिक संगठन में स्वामित्व है"
+    },
+    {
+      "src_sent": "After the soldiers left, the other victims took Abdulla to the doctor.",
+      "tgt_sent": "सैनिकों के जाने के बाद अन्य पीड़ित अब्दुला को डॉक्टर [Doctor] के पास ले गए",
+      "codeMix": "सैनिकों के जाने के बाद अन्य पीड़ित Abdulla को Doctor के पास ले गए"
+    },
+    {
+      "src_sent": "Please give me the latest information about President Trump.",
+      "tgt_sent": "कृपया मुझे राष्ट्रपति ट्रम्‍प [Trump] के बारे में नवीनतम जानकारी दो",
+      "codeMix": "कृपया मुझे President Trump के बारे में नवीनतम जानकारी दो"
+    },
+    {
+      "src_sent": "Padma Shri, Padma Bhushan, and Padma Vibhushan awardee Teejan Bai is the most popular artist of Pandavani.",
+      "tgt_sent": "पज श्री पज भूषण और पज विभूषण तीजन बाई पंडवानी की सबसे लोकप्रिय कलाकार हैं",
+      "codeMix": "Padma Shri, Padma Bhushan, और Padma Vibhushan से सम्मानित Teejan Bai पंडवानी की सबसे लोकप्रिय कलाकार हैं"
+    }
+  ],
+  "batch_24": [
+    {
+      "src_sent": "Please post a notification about the meeting with my associate on October 23rd.",
+      "tgt_sent": "कृपया मेरे सहयोगी के साथ बैठक के [inhaling] बारे में तेईस अक्टूबर [October] को एक अधिसूचना लगाओ",
+      "codeMix": "कृपया मेरे associate के साथ meeting के बारे में तेईस अक्टूबर [October] को एक notification लगाओ"
+    },
+    {
+      "src_sent": "To make an impact at these events, get business cards or information brochures printed that describe your fragrant natural oils.",
+      "tgt_sent": "अपनी छाप छोड़ने के लिए इन आयोजनों में विवरित करने हेतु अपने सुगन्धित प्राकृतिक तेलों के बारे में [breathing] व्यवसाय कार्ड [card] या विवरण पुस्तिका छपवाएँ",
+      "codeMix": "इन events में अपनी छाप छोड़ने के लिए, अपने fragrant natural oils के बारे में business cards या information brochures छपवाएँ"
+    },
+    {
+      "src_sent": "Will there be any discounts on electric appliances this week?",
+      "tgt_sent": "क्या इस सप्ताह [bell] इलेक्ट्रिक [electric] [bird_squawk] एप्लायंसेस [Appliances] पर कोई छूट मिलने वाली है",
+      "codeMix": "क्या इस सप्ताह electric appliances पर कोई discount मिलने वाली है?"
+    },
+    {
+      "src_sent": "Is there any paid Corbevax vaccination available around the pin code 219066?",
+      "tgt_sent": "क्या पिनकोड [Pin Code] दो एक नौ छः शून्य छः के आस-पास कोई सशुल्क कोर्बेबैक्स [corbebacks] टीकाकरण है?",
+      "codeMix": "क्या pin code 219066 के आस-पास कोई paid Corbevax vaccination उपलब्ध है?"
+    },
+    {
+      "src_sent": "At the beginning of his career, Haider Ali retained a Brahmin named Khande Rao as one of his chief financial assistants.",
+      "tgt_sent": "अपने केरियर [Career] की शुरुआत में हैदर अली ने <inhaling> खांडे राव नामक ब्राह्मण को <inhaling> अपने मुख्य वित्तीय सहायकों में <inhaling> से एक के रूप में <inhaling> बरकरार रखा",
+      "codeMix": "अपने career की शुरुआत में, Haider Ali ने Khande Rao नामक एक Brahmin को अपने chief financial assistants में से एक के रूप में बरकरार रखा"
+    },
+    {
+      "src_sent": "Erase that thing.",
+      "tgt_sent": "उस चीज़ को मिटा दो",
+      "codeMix": "उस thing को erase कर दो"
+    },
+    {
+      "src_sent": "What's in my rap playlist.",
+      "tgt_sent": "मेरी रैप [rap] प्लेलिस्ट [playlist] में क्या है",
+      "codeMix": "मेरी rap playlist में क्या है?"
+    },
+    {
+      "src_sent": "Enable notifications on Amazon Pay for water bill payments.",
+      "tgt_sent": "पानी बिल [Bill] भुगतान के लिए अमेज़न [Amazon] पे [Pay] में सूचनाएँ चालू करें",
+      "codeMix": "Amazon Pay पर water bill payments के लिए notifications चालू करें"
+    }
+  ],
+  "batch_25": [
+    {
+      "src_sent": "I received a product from another brand of Pure and Sure Broken Rice.",
+      "tgt_sent": "मुझे प्योर [pure] एंड [and] श्योर [sure] ब्रोकन [Broken] राइस [rice] के दूसरे ब्रांड [brand] का उत्पाद प्राप्त हुआ",
+      "codeMix": "मुझे Pure और Sure ब्रोकन Rice के दूसरे ब्रांड का उत्पाद प्राप्त हुआ"
+    },
+    {
+      "src_sent": "What is the best chocolate chip cookie recipe?",
+      "tgt_sent": "सबसे अच्छी चॉकलेट [Chocolate] चिप [Chip] कुकी [Cookie] विधि क्या है",
+      "codeMix": "सबसे अच्छी Chocolate Chip Cookie विधि क्या है"
+    },
+    {
+      "src_sent": "In 120 AD, during the Kushan era, King Kanishka conquered the regions of Roht and Jetaran, which are now part of the present-day Pali district.",
+      "tgt_sent": "एक सौ बीस ईस्वी में कुषाण युग के दौरान राजा कनिष्क ने रोहत और जेतारन क्षेत्रों पर विजय प्राप्त की जो आज के पाली ज़िले का हिस्सा है",
+      "codeMix": "एक सौ बीस ईस्वी में कुषाण युग के दौरान राजा कनिष्क ने Roht और Jetaran क्षेत्रों पर विजय प्राप्त की जो आज के पाली ज़िले का हिस्सा है"
+    },
+    {
+      "src_sent": "It created a broad family of martial arts and sports that to some extent can trace their lineage to jujitsu.",
+      "tgt_sent": "इसने मार्शल [Marshal] आर्ट्स [arts] और खेलों का एक व्यापक परिवार बनाया, जो कुछ हद तक जुजित्सु में अपनी वंचावली का पता लगा सकता है",
+      "codeMix": "इसने Martial Arts और खेलों का एक व्यापक परिवार बनाया, जो कुछ हद तक Jujitsu में अपनी वंचावली का पता लगा सकता है"
+    },
+    {
+      "src_sent": "Send an email to my manager.",
+      "tgt_sent": "मेरे प्रबंधक को ईमेल [Email] भेजें",
+      "codeMix": "मेरे प्रबंधक को Email भेजें"
+    },
+    {
+      "src_sent": "Has my boss sent me any new emails today?",
+      "tgt_sent": "क्या मेरे बॉस [Boss] ने आज मुझे नए ईमेल [Email] भेजे हैं",
+      "codeMix": "क्या मेरे Boss ने आज मुझे नए Email भेजे हैं"
+    },
+    {
+      "src_sent": "Check if the refund of seventy thousand rupees from Nykaa has been processed or not.",
+      "tgt_sent": "चेक [Check] करो कि क्या नायका [Nykaa] से सत्तर हज़ार रुपये का रिफ़ंड [Refund] प्रोसेस [Process] हुआ है या नहीं",
+      "codeMix": "Check करो कि क्या Nykaa से सत्तर हज़ार रुपये का Refund Process हुआ है या नहीं"
+    }
+  ],
+  "batch_26": [
+    {
+      "src_sent": "Disable auto payment for my landline bills for June and September.",
+      "tgt_sent": "जून [June] और सितम्बर [September] के मेरे लैंडलाइन [Landline] बिल [Bill] के लिए स्वतः भुगतान अक्षम करें",
+      "codeMix": "जून [June] और सितम्बर [September] के मेरे Landline बिल [Bill] के लिए Auto Payment अक्षम करें"
+    },
+    {
+      "src_sent": "Repeat my last order and add one large birthday candle to it.",
+      "tgt_sent": "मेरे पिछले ऑर्डर [order] को दोहराएँ और इस में एक भी विशाल बर्थडे [birthday] कैंडल्स [candle] जोड़ें",
+      "codeMix": "मेरे पिछले Order को दोहराएँ और इस में एक भी विशाल Birthday कैंडल्स [candle] जोड़ें"
+    },
+    {
+      "src_sent": "Check if this UPI ID 694243339232 at the rate of OKCIC is verified or not.",
+      "tgt_sent": "देखें कि क्या यह यू [U] पी [P] आई [I] आई [I] डी [D] छः नौ चार दो चार तीन तीन नौ दो तीन दो एट [at] द [the] रेट [rate] ओ [O] के [K] सी [C] आई [I] सी [C] आई सत्यापित है या नहीं",
+      "codeMix": "देखें कि क्या यह UPI ID 694243339232 at the rate of OKCIC सत्यापित है या नहीं"
+    },
+    {
+      "src_sent": "I want you to book a rail ticket for the train that departs at 2 pm.",
+      "tgt_sent": "मैं चाहता हूँ कि आप एक रेल [Rail] टिकट [Ticket] बुक [Book] करें जो दोपहर दो बजे निकलती है",
+      "codeMix": "मैं चाहता हूँ कि आप एक Rail टिकट [Ticket] बुक [Book] करें जो दोपहर 2 pm निकलती है"
+    },
+    {
+      "src_sent": "Can I make the payment of my consumer durable loan to Muthoot Finance through ICICI packets?",
+      "tgt_sent": "क्या मैं आई [I] सी [C] आई [I] सी [C] आई [I] पैकेट्स [packets] के माध्यम से मुथूट फाइनेंस [Finance] पर अपने कंज़्यूमर [consumer] ड्यूरेबल [durable] लोन [loan] का भुगतान कर सकता हूँ",
+      "codeMix": "क्या मैं ICICI पैकेट्स [packets] के माध्यम से Muthoot Finance पर अपने Consumer ड्यूरेबल [durable] लोन [loan] का भुगतान कर सकता हूँ"
+    },
+    {
+      "src_sent": "Give me an idea about the minimum amount required to invest in any public future private savings plan.",
+      "tgt_sent": "मुझे किसी सार्वजनिक भविष्य निजी बचत योजना में निवेश करने के लिए आवश्यक न्यूनतम राशि के बारे में एक विचार दें",
+      "codeMix": "मुझे किसी Public भविष्य निजी बचत योजना में निवेश करने के लिए आवश्यक न्यूनतम राशि के बारे में एक विचार दें"
+    }
+  ],
+  "batch_27": [
+    {
+      "src_sent": "Political parties, offices, friends, from schools to colleges, and from streets to palaces, everyone celebrates this day with a new hope of good relationships.",
+      "tgt_sent": "राजनैतिक दल, कार्यालय, मित्र, विद्यालय से लेकर महाविद्यालय, सड़कों से लेकर महलों तक इस दिन को अच्छे संबंधों की एक नई उम्मीद के साथ मनाते है।",
+      "codeMix": "राजनैतिक दल, कार्यालय, मित्र, स्कूल से लेकर कॉलेज, और स्ट्रीट्स से लेकर पैलेस तक इस दिन को अच्छे रिलेशनशिप्स की एक नई उम्मीद के साथ मनाते है।"
+    },
+    {
+      "src_sent": "Please use Axis Bank Lime to recharge my phone with the current plan and transfer the same amount to the landlord.",
+      "tgt_sent": "कृपया एक्सिस [Axis] बैंक [Bank] लाइम [Lime] का इस्तेमाल करके मेरे फ़ोन [Phone] का मौजूदा प्लान [Plan] से रीचार्ज [Recharge] करें और वही राशि मकान मालिक को ट्रांसफ़र [Transfer] करें",
+      "codeMix": "कृपया एक्सिस बैंक लाइम का इस्तेमाल करके मेरे फ़ोन को रीचार्ज करें और वही राशि लैंडलॉर्ड को ट्रांसफ़र करें।"
+    },
+    {
+      "src_sent": "Do I have the address of the Apple Store in my contacts?",
+      "tgt_sent": "क्या मेरे पास मेरे संपर्कों में एप्पल [Apple] स्टोर [Store] का पता है",
+      "codeMix": "क्या मेरे पास मेरे कॉन्टैक्ट्स में एप्पल स्टोर का एड्रेस है?"
+    },
+    {
+      "src_sent": "Is cake available?",
+      "tgt_sent": "क्या केक [Cake] उपलब्ध है",
+      "codeMix": "क्या केक उपलब्ध है?"
+    },
+    {
+      "src_sent": "Can I pay my education loan through Oxygen HDB Finance Services?",
+      "tgt_sent": "क्या मैं ऑक्सीजन [oxygen] के माध्यम से एच [H] डी [D] बी [B] फ़ाइनेंस [finance] सर्विसेज़ [services] पर अपने एजुकेशन [education] लोन [loan] का भुगतान कर सकता हूँ",
+      "codeMix": "क्या मैं ऑक्सीजन के माध्यम से एचडीबी फ़ाइनेंस सर्विसेज़ पर अपने एजुकेशन लोन का भुगतान कर सकता हूँ?"
+    },
+    {
+      "src_sent": "Give me the number for the local taxi service.",
+      "tgt_sent": "स्थानीय टैक्सी [taxi] संचिता के लिए मुझे नंबर [number] दो",
+      "codeMix": "स्थानीय टैक्सी सर्विस के लिए मुझे नंबर दो।"
+    },
+    {
+      "src_sent": "Are there any discounted items in the freshener category?",
+      "tgt_sent": "क्या फ्रेशनर [Freshener] आइटम्स [items] [whistling] श्रेणी में कोई छूट वाला आइटम [item] है",
+      "codeMix": "क्या फ्रेशनर कैटेगरी में कोई डिस्काउंटेड आइटम्स हैं?"
+    },
+    {
+      "src_sent": "Can I get the Dove Beauty Moisture face wash immediately?",
+      "tgt_sent": "क्या मुझे तुरंत डव [dove] ब्यूटी [beauty] मॉइचर [moisture] फेश [face] वॉश [wash] मिल सकता है",
+      "codeMix": "क्या मुझे तुरंत डव ब्यूटी मॉइचर फेस वॉश मिल सकता है?"
+    }
+  ],
+  "batch_28": [
+    {
+      "src_sent": "Change my Amazon Pay lock from phone password to a 4-digit PIN.",
+      "tgt_sent": "मेरे अमेज़न [Amazon] पे [Pay] लॉक [Lock] को फ़ोन [Phone] के पासवर्ड [Password] से चार अंकों के पिन [Pin] में बदलें",
+      "codeMix": "मेरे Amazon पे Lock को Phone के Password से 4-digit PIN में बदलें"
+    },
+    {
+      "src_sent": "If you already have an emergency fund in place, you can achieve another goal, such as saving for a big vacation or buying a house.",
+      "tgt_sent": "यदि आपके [noise] पास पहले से ही एक आपातकालीन कोश बचा हुआ है [inhaling] तो आप एक और लक्ष्य प्राप्त कर सकते हैं [inhaling] जैसे कि एक बड़ी छुट्टी के लिए बचत करना [inhaling] या घर ख़रीदना",
+      "codeMix": "यदि आपके पास पहले से ही Emergency Fund है तो आप एक और लक्ष्य प्राप्त कर सकते हैं जैसे कि बड़ी Vacation के लिए बचत करना या घर ख़रीदना"
+    },
+    {
+      "src_sent": "Do I need to bring a coat tonight?",
+      "tgt_sent": "क्या मुझे आज रात एक कोट [coat] लाने की ज़रूरत है?",
+      "codeMix": "क्या मुझे आज रात Coat लाने की ज़रूरत है?"
+    },
+    {
+      "src_sent": "Find the nearest medical store in Varanasi district.",
+      "tgt_sent": "जिले वाराणसी में नज़दीकी मेडिकल [Medical] स्टोर [Store] ढूँढें",
+      "codeMix": "वाराणसी जिले में नज़दीकी Medical Store ढूँढें"
+    },
+    {
+      "src_sent": "The last blast occurred in Nagaon, 120 kilometers east of Guwahati, in which four people, including a policeman, were injured.",
+      "tgt_sent": "आखिरी धमाका गुवाहाटी से एक सौ बीस किलोमीटर [Kilometre] पूर्व नगाँव में हुआ [inhaling] जिसमें एक पुलिसकर्मी समेत चार लोग घायल हो गए",
+      "codeMix": "आखिरी Blast गुवाहाटी से 120 Kilometre पूर्व नगाँव में हुआ जिसमें एक पुलिसकर्मी समेत चार लोग घायल हो गए"
+    },
+    {
+      "src_sent": "Use Airtel Money to transfer three thousand rupees to select contacts tomorrow at 9 am.",
+      "tgt_sent": "एयरटेल [airtel] मनी [money] का उपयोग कर के चुनिंदा संपर्कों को तीन हज़ार रुपये [inhaling] कल सुबह नौ बजे ट्रांसफ़र [transfer] करें",
+      "codeMix": "Airtel Money का उपयोग कर के चुनिंदा संपर्कों को तीन हज़ार रुपये कल सुबह 9 बजे Transfer करें"
+    }
+  ],
+  "batch_29": [
+    {
+      "src_sent": "What are your hobbies? My hobbies are learning, reading, singing, and online gaming.",
+      "tgt_sent": "आपकी क्या हॉबिज़ [Hobbies] हैं मेरी हॉबिज़ [Hobbies] लर्निंग [learning] रीडिंग [Reading] सिंगिंग [singing] एण्ड [and] ऑनलाइन [Online] गेमिंग [Gaming]",
+      "codeMix": "आपकी क्या Hobbies हैं? मेरी Hobbies हैं learning, reading, singing, और online gaming."
+    },
+    {
+      "src_sent": "Have I recently received six thousand rupees from Akshara Mahajani on PayZap?",
+      "tgt_sent": "क्या मुझे अक्षरा महाजनी से पेज़ैप [PayZap] पर हाल में छः हजार रुपए मिले हैं?",
+      "codeMix": "क्या मुझे अक्षरा महाजनी से PayZap पर हाल में छः हजार रुपए मिले हैं?"
+    },
+    {
+      "src_sent": "When the game starts, each member can only move forward horizontally in one direction.",
+      "tgt_sent": "खेल शुरू होने पर प्रत्येक सदस्य केवल [noise] एक ओर क्षितिज रूप से आगे बढ़ सकते हैं",
+      "codeMix": "खेल शुरू होने पर प्रत्येक सदस्य केवल एक ओर horizontally आगे बढ़ सकते हैं"
+    },
+    {
+      "src_sent": "I want to remove the Savlon face mask from my list of items.",
+      "tgt_sent": "मैं सेवलॉन [Sevlon] फेस [face] [noise] मास्क [mask] को अपनी वस्तुओं की सूची से हटाना चाहता हूँ",
+      "codeMix": "मैं Savlon face mask को अपनी वस्तुओं की सूची से हटाना चाहता हूँ"
+    },
+    {
+      "src_sent": "The millet multigrain health drink seems more expensive to me compared to other websites.",
+      "tgt_sent": "मुझे मिलाइट मिलेट [millet] मल्टीग्रैन [multigrain] हेल्थ [health] ड्रिंक [drink] अन्य वेबसाइटों की तुलना में अधिक महंगा लगता है",
+      "codeMix": "मुझे millet multigrain health drink अन्य वेबसाइटों की तुलना में अधिक महंगा लगता है"
+    },
+    {
+      "src_sent": "How cold will it be every night this week?",
+      "tgt_sent": "इस सप्ताह हर रात कितनी ठंड होगी",
+      "codeMix": "इस सप्ताह हर रात कितनी cold होगी"
+    },
+    {
+      "src_sent": "Show me all the centers with Sputnik in the state of Goa.",
+      "tgt_sent": "मुझे राज्य गोवा में <stammers> स्पुतनिक [Sputnik] वाले सभी केंद्र दिखाएँ",
+      "codeMix": "मुझे राज्य गोवा में Sputnik वाले सभी केंद्र दिखाएँ"
+    }
+  ],
+  "batch_30": [
+    {
+      "src_sent": "I bought a pair of jeans which turned out to be great. The fabric is very comfortable, and I like the color of the fabric too - it hasn't faded. I really like these jeans.",
+      "tgt_sent": "मैं जो जींस [jeans] ख़रीदा था [breathing] वो सकारात्मक है [breathing] कपड़ा बहुत आरामदायक है रंग कपड़े का [breathing] नहीं गया मुझे [breathing] ये जींस [jeans] बहुत अच्छा लगा",
+      "codeMix": "मैंने एक जींस [jeans] ख़रीदा जो बहुत अच्छा निकला। कपड़ा बहुत आरामदायक है और मुझे रंग भी पसंद है - यह फेड [faded] नहीं हुआ है। मुझे ये जींस [jeans] बहुत पसंद है।"
+    },
+    {
+      "src_sent": "Will there be two hundred rupees in my Baroda UP Bank account?",
+      "tgt_sent": "क्या दौ सौ रुपये मेरे बड़ौदा यू [U] पी [P] बैंक [bank] खाते में होंगे?",
+      "codeMix": "क्या मेरे बड़ौदा यू [U] पी [P] बैंक [bank] खाते में दौ सौ रुपये होंगे?"
+    },
+    {
+      "src_sent": "In 1950, India became a secular republic, and in 1956, Pakistan became an Islamic republic.",
+      "tgt_sent": "उन्नीस सौ पचास में भारत एक धर्मनिरपेक्ष गणराज्य बना उन्नीस सौ छप्पन में पाकिस्तान इस्लामिक बना",
+      "codeMix": "उन्नीस सौ पचास में भारत एक सेक्युलर [secular] गणराज्य बना और उन्नीस सौ छप्पन में पाकिस्तान इस्लामिक [Islamic] गणराज्य बना।"
+    },
+    {
+      "src_sent": "The Regulating Act of 1773 granted the Court of Directors of the East India Company the power to elect four advisors.",
+      "tgt_sent": "रेग्युलेटिंग [Regulating] एक्ट [act] एक सात-सात तीन ने ईस्ट [East] इंडिया [india] कंपनी [company] के कोर्ट [court] ऑफ [of] डायरेक्टर्स [Directors] के द्वारा चार सलाहकारों के चुनाव का अधिकार प्रदान किया",
+      "codeMix": "रेग्युलेटिंग [Regulating] एक्ट [act] 1773 ने ईस्ट [East] इंडिया [india] कंपनी [company] के कोर्ट [court] ऑफ [of] डायरेक्टर्स [Directors] को चार सलाहकारों का चुनाव करने का अधिकार दिया।"
+    },
+    {
+      "src_sent": "The mentioned price of Garnier Men Acno Fight Anti-Pimple Facewash is not correct compared to the market prices.",
+      "tgt_sent": "गार्नियर [Garnier] मेज [Mage] एक्नोफाइट [Achnophyte] एंटी [Anti] पिंपल [Pimple] फेसवाॅश [Facewash] की उल्लिखित कीमत बाज़ार की कीमतों की तुलना में सही नहीं है",
+      "codeMix": "गार्नियर [Garnier] मेन [Men] एक्नो फाइट [Acno Fight] एंटी [Anti] पिंपल [Pimple] फेसवाॅश [Facewash] की उल्लिखित कीमत बाज़ार की कीमतों की तुलना में सही नहीं है।"
+    },
+    {
+      "src_sent": "Add three IVEO long trays to my item list.",
+      "tgt_sent": "मेरी आइटम [item] सूची में तीन आइवीओ [iveo] लंबी ट्रे [tray] जोड़ें",
+      "codeMix": "मेरी आइटम [item] सूची में तीन आइवीओ [iveo] लंबी ट्रे [tray] ऐड [add] करें।"
+    }
+  ],
+  "batch_31": [
+    {
+      "src_sent": "On all the buttons of the Dashboard",
+      "tgt_sent": "डैशबोर्ड [Dashboard] के सभी बटनों पर",
+      "codeMix": "डैशबोर्ड के सभी [Dashboard] बटनों पर"
+    },
+    {
+      "src_sent": "In this way, with the help of their chief minister, Vaskar, they were able to divide the Ajatashatru Vajjis and also break the Chaityas from within.",
+      "tgt_sent": "इन तरह अपने मुख्यमंत्री वासकर [inhaling] की मदद से ये अजातशत्रु वज्जियो को विभाजित करने में कामयाब रहे [inhaling] और चैत्यो को भी अंदर से तोड़ दिया।",
+      "codeMix": "इन तरह अपने मुख्यमंत्री वासकर की मदद से ये अजातशत्रु वज्जियो को विभाजित करने में कामयाब रहे और चैत्यो को भी अंदर से तोड़ दिया, जिससे उन्हें [Chief Minister] की मदद से सफलता मिली।"
+    },
+    {
+      "src_sent": "Show the current holdings of my APY account with PRAN number 92666722885798.",
+      "tgt_sent": "पी [P] आर [R] ए [A] एन [N] नम्बर [number] नौ दो छः छः सात दो आठ आठ पाँच सात नौ आठ [noise] वाले मेरे ए [A] पी [P] वाई [Y] खाते की वर्तमान होल्डिंग्स [Holdings] दिखाएँ।",
+      "codeMix": "मेरे APY खाते की वर्तमान होल्डिंग्स [Holdings] दिखाएँ, जिसका PRAN नंबर 92666722885798 है।"
+    },
+    {
+      "src_sent": "I like music.",
+      "tgt_sent": "मुझे संगीत पसंद है |",
+      "codeMix": "मुझे संगीत [Music] पसंद है"
+    },
+    {
+      "src_sent": "Tanna played the negative role of Aisha in the TV show Ek Ladki Anjaani Si.",
+      "tgt_sent": "तन्ना ने आईशा का नकारात्मक किरदार निभाते हुए टी [T] वी [V] कार्यक्रम एक लड़की अनजानी सी के लिए काम किया था",
+      "codeMix": "तन्ना ने आईशा का नकारात्मक किरदार निभाते हुए TV शो एक लड़की अनजानी सी में काम किया था।"
+    },
+    {
+      "src_sent": "My money got deducted, but my order for red chilli from BB Royal was not confirmed.",
+      "tgt_sent": "मेरे पैसे कट [cut] गए लेकिन बी बी रॉयल [Royal] [breathing] होल [hole] लाल मिर्च के मेरे ऑर्डर [order] की पुष्टि नहीं हुई",
+      "codeMix": "मेरे पैसे कट गए, लेकिन मेरा ऑर्डर [Order] BB Royal से लाल मिर्च के लिए कन्फर्म नहीं हुआ।"
+    },
+    {
+      "src_sent": "Are there any festival offers on cakes?",
+      "tgt_sent": "क्या केकों पर कोई फेस्टिवल [Festival] ऑफर [offer] हैं?",
+      "codeMix": "क्या केकों पर कोई फेस्टिवल ऑफर [Festival Offer] हैं?"
+    }
+  ],
+  "batch_32": [
+    {
+      "src_sent": "Show the list of all vaccination centers around the PIN code 470232.",
+      "tgt_sent": "पिन [PIN] कोड [Code] चार सात शून्य दो तीन दो के आसपास के [inhaling] सभी टीकाकरण केंद्रों की सूची दिखाएँ",
+      "codeMix": "पिन [PIN] कोड [Code] 470232 के आसपास के सभी Vaccination Centers की सूची दिखाएँ"
+    },
+    {
+      "src_sent": "Create a list of all rejected claims with my EPFO account linked to UAN number 785934183299.",
+      "tgt_sent": "मेरे ई [E] पी [P] एफ़ [F] ओ [O] खाते से यू [U] ए [A] एन [N] नम्बर [Number] सात आठ पाँच नौ तीन चार एक आठ तीन दो नौ नौ के साथ सभी अस्वीकृत दावों की सूची बनाएँ",
+      "codeMix": "मेरे EPFO खाते से UAN नंबर 785934183299 के साथ सभी Rejected Claims की सूची बनाएँ"
+    },
+    {
+      "src_sent": "Tune into Radio Mirchi on the radio.",
+      "tgt_sent": "रेडिओ [Radio] पे रेडिओ [Radio] मिर्ची लगाओ",
+      "codeMix": "रेडिओ पर Radio Mirchi लगाओ"
+    },
+    {
+      "src_sent": "As the Chairman of the Kannada Development Authority [KDA], Chandru strongly advocated for the preservation and promotion of the Kannada language during his tenure.",
+      "tgt_sent": "कन्नड़ विकास प्राधिकरण के डी ए [KDA] के अध्यक्ष के रूप में अपने कार्यालय में चंद्रू ने कन्नड़ भाषा के संरक्षण और प्रचार के पक्ष का जोरदार समर्थन किया",
+      "codeMix": "KDA के अध्यक्ष के रूप में चंद्रू ने कन्नड़ भाषा के संरक्षण और प्रचार के लिए जोरदार समर्थन किया"
+    },
+    {
+      "src_sent": "Bose visited the islands during the war and renamed them as Shaheed Dweep and Swaraj Dweep.",
+      "tgt_sent": "बोस ने युद्ध के दौरान द्वीपों का दौरा किया और उनका नाम बदल कर शहीद-दीप और स्वराज-दीप रख दिया",
+      "codeMix": "बोस ने युद्ध के दौरान द्वीपों का दौरा किया और उनका नाम बदल कर Shaheed Dweep और Swaraj Dweep रख दिया"
+    }
+  ],
+  "batch_33": [
+    {
+      "src_sent": "In my village, farming is done, and after that, there's a dairy, its shop, and related work. Then there are shops and other things. There are many such facilities available regarding all these in our village.",
+      "tgt_sent": "मेरे गाँव में खेती होता [noise] है उसके बाद दूध की डेरी [dairy] है उसकी दुकान है उसका कार्य होता है फिर दुकान वगैरह है उस सब [noise] के बारे में बहुत से ऐसी सुविधा है जो हमारे [noise] गाँव में होते हैं",
+      "codeMix": "मेरे गाँव में खेती होती है, और उसके बाद एक डेरी (dairy) है, उसकी दुकान है, और उससे जुड़ा काम होता है. फिर दुकानें और दूसरी चीजें हैं. हमारे गाँव में इन सभी के बारे में बहुत सी सुविधाएं उपलब्ध हैं."
+    },
+    {
+      "src_sent": "Tell me who has the most hits on the Billboard Top Twenty.",
+      "tgt_sent": "मुझे बताओ कि बिलबोर्ड [billboard] टॉप [top] <horn> ट्वेंटी [twenty] पर सबसे ज़्यादा हिट [hit] किसके पास है",
+      "codeMix": "मुझे बताओ कि बिलबोर्ड (billboard) के टॉप ट्वेंटी (top twenty) पर सबसे ज्यादा हिट्स (hits) किसके पास हैं."
+    },
+    {
+      "src_sent": "The Arya organic jaggery powder and Tetley green tea were not fresh.",
+      "tgt_sent": "आर्य आर्गेनिक [organic] जेगरी [jaggery] पाउडर [powder] और टेटली [Tetley] ग्रीन [green] टी [tea] ताज़ा नहीं थे",
+      "codeMix": "आर्य का ऑर्गेनिक (organic) जेगरी पाउडर (jaggery powder) और टेटली (Tetley) की ग्रीन टी (green tea) ताज़ा नहीं थे."
+    },
+    {
+      "src_sent": "Can I get electric appliances immediately?",
+      "tgt_sent": "क्या मैं इलेक्ट्रिक [Electric] [noise] अप्लायसेंस [Appliances] [talking] तुरंत प्राप्त कर सकता हूँ [noise]",
+      "codeMix": "क्या मैं इलेक्ट्रिक अप्लायंसेज़ (electric appliances) तुरंत प्राप्त कर सकता हूँ?"
+    },
+    {
+      "src_sent": "Lower the volume of this song.",
+      "tgt_sent": "इस गाने की आवाज़ कम कर दो",
+      "codeMix": "इस गाने का वॉल्यूम (volume) कम कर दो."
+    },
+    {
+      "src_sent": "Search for the Indian Institute of Science, Bangalore in the AICTE-approved institution list for the academic year 2019-2020.",
+      "tgt_sent": "शैक्षणिक वर्ष दो हजार उन्नीस दो हजार बीस के लिए ए [A] आई [E] सी [C] टी [T] आई [I] द्वारा अनुमोदित संस्थान सूची में भारतीय विज्ञान संस्थान बेंगलुरु खोजें",
+      "codeMix": "शैक्षणिक वर्ष 2019-2020 के लिए एआईसीटीई (AICTE) द्वारा अनुमोदित संस्थानों की सूची में भारतीय विज्ञान संस्थान, बेंगलुरु (Indian Institute of Science, Bangalore) को खोजें."
+    }
+  ],
+  "batch_34": [
+    {
+      "src_sent": "I want to know the total holding of my PRAN number 6588949489, the one with APY account 58.",
+      "tgt_sent": "मुझे अपने पी [P] आर [R] ए [A] एन [N] नम्बर [Number] छः पाँच आठ आठ चार नौ चार चार आठ नौ [inhaling] पाँच आठ वाले ए [A] पी [P] वाई [Y] खाते [inhaling] की कुल होल्डिंग [Holding] [noise] जानना है",
+      "codeMix": "मुझे अपने PRAN नंबर 6588949489 की कुल होल्डिंग जानना है, जिसमें APY अकाउंट 58 है।"
+    },
+    {
+      "src_sent": "Can you add my Karnataka Gramin Bank Mastercard to the list of payment methods on Zee?",
+      "tgt_sent": "क्या आप मेरे कर्नाटक ग्रामीण बैंक [Bank] [child_talking] मास्टरकार्ड [Mastercard] को ज़ी पर भुगतान तरीकों की सूची पर जोड़ सकते हो",
+      "codeMix": "क्या आप मेरे Karnataka Gramin Bank के Mastercard को Zee पर पेमेंट मेथड्स की लिस्ट में ऐड कर सकते हैं?"
+    },
+    {
+      "src_sent": "Register my phone number, 82459777958, on the Covin portal and use the M-pin for authentication.",
+      "tgt_sent": "कोविन [Covin] पोर्टल [Portal] पर मेरा फ़ोन [phone] नंबर [Number] आठ दो चार पाँच नौ [bird_squawk] सात सात सात नौ पाँच आठ पंजीकृत करें और प्रमाणीकरण के रूप में एम पिन [Pin] का उपयोग करें",
+      "codeMix": "कोविन पोर्टल पर मेरा Phone Number 82459777958 रजिस्टर करें और M-Pin से Authenticate करें।"
+    },
+    {
+      "src_sent": "Send the OTP again to my registered EPFO mobile number 60138333122.",
+      "tgt_sent": "मेरे ई [E] पी [P] एफ़ [F] ओ [O] पंजीकृत मोबाइल [Mobile] नंबर [Number] छः जीरो एक तीन आठ छ: तीन-तीन एक दो दो पर ओ [O] टी [T] पी [P] दोबारा भेजें",
+      "codeMix": "मेरे EPFO रजिस्टर्ड Mobile Number 60138333122 पर OTP दोबारा भेजें।"
+    },
+    {
+      "src_sent": "Please state the monthly SIP savings amount up to nine hundred.",
+      "tgt_sent": "कृपया सिप [SIP] बचत की मासिक राशि नौ सौ तक बताएँ",
+      "codeMix": "कृपया मासिक SIP Savings Amount नौ सौ तक बताएं।"
+    }
+  ],
+  "batch_35": [
+    {
+      "src_sent": "Please complain that my mobile has been kept at the service center for a very long time.",
+      "tgt_sent": "कृपया शिकायत करें कि मेरा मोबाइल [Mobile] संचिता केंद्र में बहुत देर से रखा है",
+      "codeMix": "कृपया शिकायत करें कि मेरा Mobile संचिता केंद्र में बहुत देर से रखा है"
+    },
+    {
+      "src_sent": "Send the OTP to the newly registered number [Number] 708083136523 instead of the old one.",
+      "tgt_sent": "पुराने के बजाय नए पंजीकृत नंबर [Number] सात आठ शून्य आठ तीन एक तीन छह पाँच दो तीन पर ओ [O] टी [T] पी [P] भेजें",
+      "codeMix": "पुराने के बजाय नए पंजीकृत Number सात आठ शून्य आठ तीन एक तीन छह पाँच दो तीन पर OTP भेजें"
+    },
+    {
+      "src_sent": "For boats designed for racing competitions, this stabilizing weight can be up to fifty percent of the boat's weight, but it is generally around thirty percent.",
+      "tgt_sent": "दौड़ प्रतियोगिताओं के लिए डिज़ाइन [design] की गई नौकाओं में यह स्थिर बनाने वाला भार नाव के वज़न का पचास परसेंट [percent] तक हो सकता है लेकिन आम तौर पर लगभग तीस परसेंट [percent] होता है",
+      "codeMix": "दौड़ प्रतियोगिताओं के लिए design की गई नौकाओं में यह स्थिर बनाने वाला भार नाव के वज़न का पचास percent तक हो सकता है लेकिन आम तौर पर लगभग तीस percent होता है"
+    },
+    {
+      "src_sent": "Do you want to continue your vaccination registration for phone number 98416203963 using OTP or MPIN?",
+      "tgt_sent": "क्या आप ओ [O] टी [T] पी [P] या एम [M] पिन [pin] का उपयोग करके फ़ोन [phone] नंबर [number] नौ आठ चार एक छः दो जीरो [zero] तीन नौ छः तीन के लिए अपना टीका पंजीकरण जारी रखना चाहते हैं",
+      "codeMix": "क्या आप OTP या MPIN का उपयोग करके phone number नौ आठ चार एक छः दो जीरो तीन नौ छः तीन के लिए अपना टीका पंजीकरण जारी रखना चाहते हैं"
+    },
+    {
+      "src_sent": "Transfer an amount of thirty thousand rupees to Siddhant Mavi and automatically deduct a quarter of it every month for the entire year.",
+      "tgt_sent": "सिद्धांत मावी को तीस हज़ार रुपये की राशि ट्रांसफ़र [Transfer] करें और पूरे साल के लिए हर महीने इसका एक चौथाई हिस्सा स्वतः चुकाऐं",
+      "codeMix": "सिद्धांत मावी को तीस हज़ार रुपये की राशि Transfer करें और पूरे साल के लिए हर महीने इसका एक चौथाई हिस्सा स्वतः चुकाऐं"
+    }
+  ],
+  "batch_36": [
+    {
+      "src_sent": "Which items in pastries have a minimum of seventy percent off offer?",
+      "tgt_sent": "पेस्ट्रियों मे न्यूनतम सत्तर परसेंट [percent] [breathing] के ऑफर [offer] के साथ कौन से आइटम [item] हैं",
+      "codeMix": "पेस्ट्रियों में कौन से items seventy percent off offer के साथ हैं?"
+    },
+    {
+      "src_sent": "Repeat my order from last week for Aarya Organic Triphala powder and Devbhumi certified organic honey.",
+      "tgt_sent": "आर्य ऑर्गेनिक [organic] त्रिफला पाउनडर [powder] [horn] और देवभूमि सर्टिफाइड [certified] ऑर्गेनिक [organic] हनी [honey] के मेरे पिछले सप्ताह [horn] के ऑर्डर [order] को दोहराइए",
+      "codeMix": "मेरे पिछले सप्ताह के आर्य Organic Triphala powder और Devbhumi certified organic honey के ऑर्डर को दोहराइए"
+    },
+    {
+      "src_sent": "Can you find any ESI centre with pin code 213008 and centre type IMP hospital?",
+      "tgt_sent": "क्या आप पिन [Pin] कोड [Code] दो एक तीन शून्य आठ एक और केंद्र प्रकार आई [I] एम [M] पी [P] [inhaling] चिकित्सालय वाले कोई ई [E] एस [S] आई [I] सी [C] केंद्र ढूँढ सकते हैं",
+      "codeMix": "क्या आप pin code 213008 और centre type IMP hospital वाले कोई ESI centre ढूँढ सकते हैं?"
+    },
+    {
+      "src_sent": "Doctor Otekar Funfoods Peanut Butter Crunchy and Makino Nacho Chips were not fresh.",
+      "tgt_sent": "डॉक्टर [Doctor] ओटेकर [Otekar] फनफूड्स [Funfoods] पीनट [Peanut] बटर [Butter] क्रंची [Crunchy] और मकीनो नाचो चिप्स [Chips] ताज़ा नहीं थे",
+      "codeMix": "Doctor Otekar के Funfoods Peanut Butter Crunchy और Makino Nacho Chips ताज़ा नहीं थे"
+    },
+    {
+      "src_sent": "What will Africa look like in ten years?",
+      "tgt_sent": "अफ्रीका [africa] दस साल में कैसा दिखेगा?",
+      "codeMix": "अफ्रीका ten years में कैसा दिखेगा?"
+    },
+    {
+      "src_sent": "To proceed to the Mahindra & Mahindra Financial Services car insurance page, please enter my private car number.",
+      "tgt_sent": "महिंद्रा एंड [and] महिंद्रा फाइनेंशियल [Financial] सर्विसेज़ [Services] कार [car] बीमा पृष्ठ पर आगे बढ़ने के लिए कृपया मेरी नीजी कार [car] संख्या दर्ज करें",
+      "codeMix": "महिंद्रा & Mahindra Financial Services के car insurance पृष्ठ पर आगे बढ़ने के लिए कृपया मेरी private car number दर्ज करें"
+    },
+    {
+      "src_sent": "Is 9094418957 on Citrus?",
+      "tgt_sent": "[noise] क्या नौ शून्य नौ चार चार एक आठ नौ पाँच नौ सात साइट्रस [citrus] पर है",
+      "codeMix": "क्या 9094418957 Citrus पर है?"
+    }
+  ],
+  "batch_37": [
+    {
+      "src_sent": "Send the OTP to the newly registered number [Number] 64748968879 instead of the old one.",
+      "tgt_sent": "पुराने के बजाय नए पंजीकृत नंबर [Number] छः चार सात चार आठ नौ छः आठ आठ सात नौ पर ओ टी पी भेजें",
+      "codeMix": "नए पंजीकृत नंबर [Number] 64748968879 पर ओटीपी भेजें, पुराने के बजाय"
+    },
+    {
+      "src_sent": "It is famous for spotting dolphins in their natural habitat.",
+      "tgt_sent": "यह डॉल्फिन [dolphin] के प्राकृतिक वास में उन्हें देखने के लिए प्रसिद्ध है",
+      "codeMix": "यह [dolphin] के प्राकृतिक वास में स्पॉट करने के लिए प्रसिद्ध है"
+    },
+    {
+      "src_sent": "Are there any offers on EarthOn Cranberry dry inhalers?",
+      "tgt_sent": "क्या अर्थऑन [EarthOn] सूखे [inhaling] कैनबेरी [Cranberry] पर कोई ऑफ़र [Offer] हैं",
+      "codeMix": "क्या [EarthOn] [Cranberry] ड्राई इनहेलर पर कोई ऑफर हैं?"
+    },
+    {
+      "src_sent": "Is there any possibility that these items will be available this week?",
+      "tgt_sent": "क्या चीज़ आइटम्स [Items] इस सप्ताह उपलब्ध होने की कोई संभावना है",
+      "codeMix": "क्या ये [Items] इस सप्ताह उपलब्ध होंगे?"
+    },
+    {
+      "src_sent": "To get started, [inhaling] set an alarm.",
+      "tgt_sent": "शुरू करने के लिए [inhaling] अलार्म [Alarm] लगाओ",
+      "codeMix": "[inhaling] शुरू करने के लिए एक [Alarm] सेट करें"
+    },
+    {
+      "src_sent": "I want to know the status of my order which includes Laughing Cow Creamy Cheese Triangles, Sneha Select Dragon Chicken Kebab, and Divha Lemon Ginger Tea.",
+      "tgt_sent": "मैं द [The] लाफ़िंग [Laughing] काओ [Cow] क्रीमी [Creamy] चीज़ [Cheese] ट्राईऐंगल्स [Triangles] स्नेहा सेलेक्ट [Select] ड्रैगन [Dragon] चिकन [Chicken] कबाब [Kebab] और दिभा लेमन [Lemon] जिंजर [Ginger] टी [Tea] वाले अपने ऑर्डर [Order] की स्थिति जानना चाहता हूँ",
+      "codeMix": "मैं अपने ऑर्डर की स्थिति जानना चाहता हूँ जिसमें [Laughing Cow] [Creamy Cheese] [Triangles], [Sneha Select] [Dragon Chicken] [Kebab], और [Divha] [Lemon Ginger] [Tea] शामिल हैं"
+    },
+    {
+      "src_sent": "Show the balance and transaction history of my DCB Bank account.",
+      "tgt_sent": "मेरे डी [D] सी [C] बी [B] बैंक [Bank] खाते की शेष राशि और लेन-देन इतिहास प्रदर्शित करें [noise]",
+      "codeMix": "मेरे [DCB Bank] अकाउंट का बैलेंस और ट्रांजेक्शन हिस्ट्री दिखाएं"
+    }
+  ],
+  "batch_38": [
+    {
+      "src_sent": "There are five individual events, including men's singles, women's singles, men's doubles, women's doubles, and mixed doubles. These are currently held in odd-numbered years.",
+      "tgt_sent": "पाँच व्यक्तिगत स्पर्धाएँ, जिनमें पुरुष एकल, महिला एकल, [horn] पुरुष युगल, महिला युगल [inhaling] और मिश्रित युगल शामिल हैं। वर्तमान में विषम संख्या वाले वर्षों में आयोजित की जाती हैं।",
+      "codeMix": "पाँच व्यक्तिगत स्पर्धाएँ हैं, जिनमें Men's Singles, महिला एकल, पुरुष युगल, महिला युगल और Mixed Doubles शामिल हैं। वर्तमान में विषम संख्या वाले वर्षों में आयोजित की जाती हैं।"
+    },
+    {
+      "src_sent": "Are cookies available?",
+      "tgt_sent": "क्या कुकीज़ [Cookies] उपलब्ध हैं",
+      "codeMix": "क्या Cookies उपलब्ध हैं?"
+    },
+    {
+      "src_sent": "The Telangana State Tourism Development Corporation is a state government agency that promotes tourism in Telangana.",
+      "tgt_sent": "तेलंगाना राज्य पर्यटन विकास निगम एक राज्य सरकार की संस्था है जो तेलंगाना में पर्यटन को बढ़ावा देती है",
+      "codeMix": "तेलंगाना राज्य पर्यटन विकास निगम एक State Government Agency है जो तेलंगाना में पर्यटन को बढ़ावा देती है"
+    },
+    {
+      "src_sent": "Please verify if my bank account [Bank] seven three five one one seven three three nine seven seven [inhaling] eight eight eight seven seven [inhaling] can be linked to the digital payment app PayZapp.",
+      "tgt_sent": "कृपया सत्यापित करें कि क्या मेरा बैंक [Bank] खाता सात तीन पाँच एक एक सात तीन तीन नौ सात सात [inhaling] आठ आठ आठ सात सात [inhaling] डिजिटल [Digital] भुगतान ऐप [App] पेज़ैप [PayZapp] से जोड़ा जा सकता है",
+      "codeMix": "कृपया सत्यापित करें कि क्या मेरा Bank Account सात तीन पाँच एक एक सात तीन तीन नौ सात सात आठ आठ आठ सात सात Digital Payment App PayZapp से जोड़ा जा सकता है"
+    }
+  ],
+  "batch_39": [
+    {
+      "src_sent": "Basketball, invented by Canadian-American gym teacher James Naismith in Springfield, Massachusetts, United States of America in eighteen ninety-one, has become one of the world's most popular and widely watched sports.",
+      "tgt_sent": "स्प्रिंगफील्ड [Springfield] मैसाचुसेट्स [Massachusetts] संयुक्त राज्य अमेरिका [America] में कनाडाई अमेरिकी जिम [gym] शिक्षक जेम्स [James] नाइस्मिथ [Naismith] द्वारा [inhaling] अठारह सौ इक्यानवे में आविष्कार किया गया [inhaling] बास्केटबॉल [basketball] दुनिया के सबसे लोकप्रिय और व्यापक रूप से देखे जाने [door] वाले खेलों में से एक बन गया है",
+      "codeMix": "बास्केटबॉल [basketball], जो कि कनाडाई-अमेरिकी जिम [gym] शिक्षक जेम्स [James] नाइस्मिथ [Naismith] द्वारा स्प्रिंगफील्ड [Springfield], मैसाचुसेट्स [Massachusetts], अमेरिका [America] में आविष्कार किया गया था, दुनिया के सबसे लोकप्रिय और व्यापक रूप से देखे जाने वाले खेलों में से एक बन गया है"
+    },
+    {
+      "src_sent": "I want to remove the Beardo hair serum, can you take it out of my shopping list?",
+      "tgt_sent": "मैं बिअर्डो [Beardo] हेयर [hair] सीरम [Serum] हटाना चाहता हूँ , क्या आप इसे मेरी ख़रीदारी सूची से निकाल सकते हैं?",
+      "codeMix": "मैं अपनी शॉपिंग लिस्ट से बिअर्डो [Beardo] हेयर [hair] सीरम [Serum] हटाना चाहता हूँ, क्या आप इसे निकाल सकते हैं?"
+    },
+    {
+      "src_sent": "Can you help me find the ESIc centres providing X-ray services in the state of Sikkim?",
+      "tgt_sent": "क्या आप राज्य सिक्किम में एक्स-रे [X-Ray] सेवाएँ देने वाले ई [E] एस [S] आई [I] सी [C] केंद्रों को ढूँढने में मदद कर सकते हैं",
+      "codeMix": "क्या आप सिक्किम राज्य में एक्स-रे [X-Ray] सेवाएँ देने वाले ESIc केंद्रों को ढूँढने में मेरी मदद कर सकते हैं?"
+    },
+    {
+      "src_sent": "The item in your cart, Borosil hot and cold stainless steel tea kettle, is not in stock.",
+      "tgt_sent": "आप के कार्ट [cart] का आइटम [item] बोरोसिल [borosil] हॉट [hot] एंड [and] कोल्ड [cold] स्टेनलेस [stainless] स्टील [steel] टी [tea] कैटल [kettle] भंडार में नहीं है",
+      "codeMix": "आपके कार्ट [cart] में बोरोसिल [borosil] हॉट [hot] और कोल्ड [cold] स्टेनलेस [stainless] स्टील [steel] टी [tea] कैटल [kettle] आइटम [item] भंडार में नहीं है"
+    },
+    {
+      "src_sent": "Three times two equals six.",
+      "tgt_sent": "तीन गुना दो बराबर छः",
+      "codeMix": "तीन गुना दो बराबर ६ (six)"
+    }
+  ],
+  "batch_40": [
+    {
+      "src_sent": "He is credited with systematizing certain aspects of Hindustani music and bringing to the forefront many ragas, including Yaman Kalyan, Zilaf, and Sarpa da.",
+      "tgt_sent": "उन्हें हिंदुस्तानी संगीत के कुछ पहलुओं को [inhaling] व्यवस्थित करने और यमन कल्याण ज़ीलफ़ और सर्पदा जैसे कई रागों को सामने लाने का [inhaling] श्रेय दिया जाता है",
+      "codeMix": "उन्हें हिंदुस्तानी संगीत के कुछ पहलुओं को inhaling व्यवस्थित करने और यमन कल्याण, Zilaf और Sarpa da जैसे कई रागों को सामने लाने का श्रेय दिया जाता है"
+    },
+    {
+      "src_sent": "I want to know the status of my order for Ching's Secret Green Chilli Sauce, Pure and Sure Amla Powder, and Nutty Yogi Turmeric Latte.",
+      "tgt_sent": "मैं चिंग्स [ching's] सीक्रेट [secret] ग्रीन [green] चिली [chilli] सॉस [sauce] प्योर [pre] एँड [and] श्योर [sure] आंवला पाउडर [powder] और नट्टी [nutty] योगी [yogi] टर्मेरिक [turmeric] लाट्टे [latte] वाले अपने ऑर्डर [order] की स्थिति जानना चाहता हूँ",
+      "codeMix": "मैं Ching's Secret Green Chilli Sauce, Pure and Sure Amla Powder और Nutty Yogi Turmeric Latte वाले अपने order की स्थिति जानना चाहता हूँ"
+    },
+    {
+      "src_sent": "Show all Pediasure products that are available for immediate delivery.",
+      "tgt_sent": "पीडिआश्योर [Pediasure] [horn] के सभी उत्पाद दिखाएँ जो तुरंत डिलीवरी [Delivery] के [horn] लिए उपलब्ध हैं",
+      "codeMix": "पीडिआश्योर Pediasure के सभी उत्पाद दिखाएँ जो तुरंत Delivery के लिए उपलब्ध हैं"
+    },
+    {
+      "src_sent": "Is there enough money in my Jammu and Kashmir Grameen Bank account to carry out a transaction of nine thousand rupees?",
+      "tgt_sent": "क्या मेरे जम्मू एंड [And] कश्मीर ग्रामीण बैंक [Bank] खाते में नौ हज़ार रुपये का लेन-देन करने के लिए पर्याप्त पैसे हैं",
+      "codeMix": "क्या मेरे Jammu and Kashmir Grameen Bank खाते में नौ हज़ार रुपये का लेन-देन करने के लिए पर्याप्त पैसे हैं"
+    },
+    {
+      "src_sent": "Show all Cinthol products that are available for immediate delivery.",
+      "tgt_sent": "सिंथौल [Cinthol] के सभी उत्पाद दिखाएं [noise] जो तुरंत डिलीवरी [Delivery] के लिए उपलब्ध हैं",
+      "codeMix": "सिंथौल Cinthol के सभी उत्पाद दिखाएं जो तुरंत Delivery के लिए उपलब्ध हैं"
+    }
+  ]
+}

@@ -6,7 +6,7 @@ from langchain_openai import ChatOpenAI
 from openai import OpenAI
 import time
 
-NVIDAI_API_KEY = "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"
+NVIDAI_API_KEY = "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"
 
 client = OpenAI(
     base_url="https://integrate.api.nvidia.com/v1",
@@ -20,7 +20,7 @@ def count_tokens(sentence):
     return 0
 
 # Function to create batches of sentences with a maximum token limit
-def create_batches(sentences, max_tokens=512):
+def create_batches(sentences, max_tokens=242):
     batches = []
     current_batch = []
     current_tokens = 0
@@ -46,7 +46,7 @@ def create_batches(sentences, max_tokens=512):
     return batches
 
 # Load sentences from JSON file
-with open('sentences.json', 'r', encoding='utf-8') as file:
+with open('hin_sentences.json', 'r', encoding='utf-8') as file:
     data = json.load(file)
 
 # Define your desired data structure.
@@ -73,9 +73,10 @@ for batch in batches:
 
     # Create prompt with the batch of sentences
     prompt = (
-        "You will be provided with a list of source sentences and their corresponding translations. Your task is to generate improved translations for these source sentences.\n"
+        "You will be provided with a list of english source sentences and their corresponding hindi translations. Your task is to generate improved translations for these source sentences.\n"
         "While translating, refer to the provided translations and identify the words that are enclosed in brackets. Use some of these words to create a Code-Mixed style translation.\n"
         "You also need to incorporate Code-Mixing into the translations that you generate by using the some of the words identified from the provided translations.\n\n"
+        "Retain the identified code-mixed words in the English script."
         f"Here is the list of sentences along with their corresponding translations:\n{json.dumps(batch, ensure_ascii=False)}\n"
         f"{parser.get_format_instructions()}"
     )
