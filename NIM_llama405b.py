@@ -6,7 +6,7 @@ from langchain_openai import ChatOpenAI
 from openai import OpenAI
 import time
 
-NVIDAI_API_KEY = "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"
+NVIDAI_API_KEY = "--key--"
 
 client = OpenAI(
     base_url="https://integrate.api.nvidia.com/v1",
