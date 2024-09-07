@@ -1,0 +1,76 @@
+{
+  "batch_2": [
+    {
+      "src_sent": "Sir, good morning, sir. May I come in, sir? My name is J. J. J. Rambabu, sir. What happened, sir? What's going on, sir? I'm coming to school regularly, sir. No, sir, don't say that. I will study, sir. No, I will bring my books, sir. I will read my marks, sir. I'm showing you, sir. My parents are at home, sir. My father is sending me to school, sir. I'm coming, sir. My father is sending me, sir. My mother is also watching, sir. No, sir, why, sir? I'm studying well, sir. They're saying I'm studying well, sir. No, sir, I made a mistake, sir. I'll reduce it, sir. I'll come to school, sir. Okay, sir, I'll study, sir. I'll study well, sir. I'll wear my shoes, sir. My shoes are a bit torn, sir. That's why I didn't wear them, sir. My father said he'll buy me new shoes, sir. He said he'll buy them in two days, sir. That's why I didn't wear them, sir. No, sir, I won't do it again, sir. I'll be good, sir. I don't want to be scolded, sir. I'll wear my uniform and shoes, sir. I'll study, sir. Okay, sir, okay, sir. I have maths, sir. My teacher is there, sir. I'll tell him you called me, sir. I won't make excuses, sir. I'll be obedient, sir.",
+      "tgt_sent": "సార్ [sir] శుభోదయం సార్ [sir] నా లోపలికి రా రమ్మంటారా అండి [uhh] జరుగుతున్నాయ్ సారు నా పేరండి జే [J] జే [J] జే [J] రాంబాబు అండి ఏ ఏ"
+    }
+  ],
+  "batch_3": [
+    {
+      "src_sent": "I ordered a mixer, but it didn't turn out well. The mixer wasn't working properly, and the wire was damaged when it arrived. I wasn't satisfied with the product, so I ordered another mixer online from your store. Unfortunately, that one also didn't turn out well, which is why I don't have a good opinion about it. I tried to return the mixer, but they didn't accept the return. I lost a significant amount of money due to this mixer, and I'm not confident in purchasing products online anymore. This experience has left a negative impression on me.",
+      "tgt_sent": "నేను [noise] ఒక మిక్సీ [mixy] ఆర్డర్ [order] పెట్టాను ఆ మిక్సీ [mixy] అస్సలు మంచిగా రాలేదు అందులో పని అది అస్సలు సరిగ్గా పనిచేయలేదు వైర్ [wire] చిరిగిపోయి వచ్చింది అలా నా మిక్సీ [mixy] అస్సలు మంచిగా రాలేదు నేను ఆన్‍లైన్ [online] మీషోలో ఒక మిక్సీ [mixy] ఆర్డర్ [order] పెట్టాను ఆ మిక్సీ అస్సలు బాగా రాలేదు అందుకే దానిపైన నాకు మంచి ఒపీనియనే లేదు అందుకే ఆ మిక్సీ [mixy] నేను మళ్ళీ రిటర్న్ [return] రిటర్న్ [return] పెట్టాను వాళ్ళు రిటర్న్ [return] తీసుకోలేదు నాకు [noise] ఆ [horn] మిక్సీ [mixy] వల్ల నా అమౌంట్ [amount] కూడా నేను చాలా కోల్పోయాను నా అమౌంట్ [amount] లాస్ [loss] అయ్యాను నేను అలా మిక్సీ [mixy] వల్ల నేను ఆన్‍లైన్ [online] ప్రొడక్ట్స్ [products] నమ్మట్లేదు అందుకే నాకు ఇది ఒక మంచి నెగటివ్ [negative] ఎక్స్పీరియన్స్ [experience] అని నేను భావిస్తున్నాను",
+      "codeMix": "నేను ఒక Mixer[మిక్సీ] ఆర్డర్[ఆర్డర్] పెట్టాను కానీ అది బాగా రాలేదు. ఆ Mixer[మిక్సీ] సరిగ్గా పని చేయలేదు మరియు వైర్[వైర్] చిరిగిపోయింది. నేను ఆన్‍లైన్[ఆన్‍లైన్]లో మరొక Mixer[మిక్సీ] ఆర్డర్[ఆర్డర్] పెట్టాను కానీ అది కూడా బాగా రాలేదు. నేను ఆ Mixer[మిక్సీ]ని రిటర్న్[రిటర్న్] చేయాలని ప్రయత్నించాను కానీ వాళ్ళు రిటర్న్[రిటర్న్] తీసుకోలేదు. నేను ఆ Mixer[మిక్సీ] వల్ల చాలా డబ్బు కోల్పోయాను మరియు ఇప్పుడు నేను ఆన్‍లైన్[ఆన్‍లైన్] ప్రొడక్ట్స్[ప్రొడక్ట్స్] నమ్మట్లేదు."
+    },
+    {
+      "src_sent": "I'm filling in my Aadhaar card details to activate my Ola Money wallet.",
+      "tgt_sent": "నా ఓలా [Ola] మనీ [money] వ్యాలెట్ [wallet] యాక్టివేట్ [activate] చేసేందుకు నా ఆధార్ [Aadhaar] కార్డు [card] వివరాలు నింపు",
+      "codeMix": "నేను నా Aadhaar[ఆధార్] కార్డు[కార్డు] వివరాలు నింపుతున్నాను నా Ola[ఓలా] Money[మనీ] వ్యాలెట్[వ్యాలెట్]ను యాక్టివేట్[యాక్టివేట్] చేయడానికి."
+    },
+    {
+      "src_sent": "What's the latest on my social media?",
+      "tgt_sent": "నా సోషల్ [social] మీడియా [media] లో లేటెస్ట్ [latest] ఏంటి",
+      "codeMix": "నా Social[సోషల్] Media[మీడియా]లో లేటెస్ట్[లేటెస్ట్] ఏంటి?"
+    }
+  ],
+  "batch_4": [
+    {
+      "src_sent": "Hello, how are you? I want to share my Digilocker account with my family members, for example, my son, so that they can access my documents. Before that, I want to change my password, but I don't know how to do it. That's why I'm asking for your help. Can you please tell me how to share my Digilocker account or change the password? \n\nFirstly, I want to ask, I want to share my Digilocker account with my son, so I need to change my password. Can you suggest a strong password that no one knows, or can you tell me how to create a new one? I'm seeking your help.\n\nAlso, what are the reasons for changing the Digilocker account password? Can you explain the different types of reasons? Is it good or bad?",
+      "tgt_sent": "హలో [hello] ఎలా ఉన్నారు నేను నాయొక్క డ్యాకుమెంట్ [document] యాక్సెస్ [access] కోసం నా ఒక డిజీలాకర్ [Digilocker] ఖాతాను నా కుటుంబ సభ్యులు ఎవరైతే ఉదాహరణకు నా కొడుకుతో నేను నా డిజీలాకర్ [Digilocker] ఖాతాను పంచుకోవాలని అనుకుంటున్నాను దానికి మొదటగా నేను నా పాస్‍వర్ద్ [password] ఛేంజ్ [change] చేయాలని అనుకుంటున్నాను దానికి నాకు తెలియక పోవడం కారణం వల్ల నేను మిమ్మల్ని అడుగుతున్నాను ఖాతాను ఎలా పంచుకోవాలి లేకపోతే డిజీలాకర్ [Digilocker] మా డిజీలాకర్ [Digilocker] యొక్క పాస్‍వడ్‍ను నేను ఎలా ఛేంజ్ [change] చేయాలని మీరు నాకు ఏదైనా సహాయం ఇవ్వగలరా అని అడుగుతున్నాను కావునా నేను మొదటిగా మిమ్మలిని అడిగేది ఏంటంటే నేను నా డిజీలాకర్ [Digilocker] నా కొడుకుతో పంచుకోవాలి అనుకుంటున్నాను కాబట్టి నేను పాస్‍వర్ద్ [password] ఛేంజ్ [change] చేయాలి మొదటిగా నాకు ఓ ఒక బలమైన పాస్‍వర్ద్ [password] ఎవరికీ [noise] తెలియంది లేకపోతే క్రొత్తది అయిన మన పాస్‍వర్ద్‌ని [noise] మీరు నాకు చెప్పగలరని నేను మిమ్ములిని సహాయం కోరుచున్నాను మరియు ఈ డిజీలాకర్ [Digilocker] ఖాతాను మార్చుకోవడానికి గల [uhh] కారణాలు వివిధ రకాలైన మీరు ఎలా చెప్పుకోస్తారు మంచిదేనా లేకపోతే చెడుదా అని",
+      "codeMix": "నేను నా Digilocker[డిజీలాకర్] ఖాతాను నా కుటుంబ సభ్యులు, ఉదాహరణకు నా కొడుకుతో పంచుకోవాలని అనుకుంటున్నాను. దానికి మొదటగా నేను నా Password[పాస్‍వర్ద్] Change[ఛేంజ్] చేయాలని అనుకుంటున్నాను. నేను మిమ్మల్ని అడుగుతున్నాను ఖాతాను ఎలా పంచుకోవాలి లేకపోతే డిజీలాకర్ [Digilocker] మా డిజీలాకర్ [Digilocker] యొక్క పాస్‍వడ్‍ను నేను ఎలా Change[ఛేంజ్] చేయాలని. నేను మొదటిగా మిమ్మలిని అడిగేది ఏంటంటే నేను నా Digilocker[డిజీలాకర్] నా కొడుకుతో పంచుకోవాలి అనుకుంటున్నాను కాబట్టి నేను Password[పాస్‍వర్ద్] Change[ఛేంజ్] చేయాలి. నాకు ఓ ఒక బలమైన Password[పాస్‍వర్ద్] ఎవరికీ తెలియంది లేకపోతే క్రొత్తది అయిన మన Password[పాస్‍వర్ద్]‌ని మీరు నాకు చెప్పగలరని నేను మిమ్ములిని సహాయం కోరుచున్నాను."
+    },
+    {
+      "src_sent": "I want to order some beverages, milk products, and dairy items. Can you show me what's available in this category?",
+      "tgt_sent": "నేను పానీయాలు [noise] పాల పదార్ధాలు [horn] డైరీ [diary] ఆర్డర్ [order] చెయ్యాలి [noise] ఈ శ్రేణిలో ఏమేం ఉన్నాయో చూపిస్తావా",
+      "codeMix": "నేను Beverages[పానీయాలు], Milk[పాల] Products[పదార్ధాలు], మరియు Dairy[డైరీ] అంశాలను Order[ఆర్డర్] చెయ్యాలని అనుకుంటున్నాను. ఈ Category[శ్రేణి]లో ఏమేం అందుబాటులో ఉన్నాయో చూపించగలరా?"
+    },
+    {
+      "src_sent": "After the death of Sher Afghan, Noor Jahan's family was found to be in a less respectable or lower position than they desired.",
+      "tgt_sent": "షేర్ [share] ఆప్ఘన్ [option] మరణం తర్వాత నూర్ జహాన్ కుటుంబం మళ్ళీ గౌరవప్రదమైన లేదా కోరుకున్న దానికంటే తక్కువ స్థానంలో ఉన్నట్లుగా కనగొనబడింది",
+      "codeMix": "షేర్ ఆఫ్ఘన్[షేర్ ఆప్ఘన్] మరణం తర్వాత, Noor Jahan[నూర్ జహాన్] కుటుంబం మళ్ళీ Respectable[గౌరవప్రదమైన] లేదా కోరుకున్న దానికంటే తక్కువ Position[స్థానం]లో ఉన్నట్లుగా కనగొనబడింది."
+    }
+  ],
+  "batch_12": [
+    {
+      "src_sent": "Is Mother HelpAge on the list of NGOs, if so, send a donation of three thousand rupees to it.",
+      "tgt_sent": "ఎన్‍జీఓల లిస్టులో మదర్ [mother] హెల్పేజ్ [helpage] ఉన్నదా ఉంటే దానికి మూడు వేల రూపాయల విరాళం పంపు",
+      "codeMix": "NGO[ఎన్‍జీఓ]ల జాబితాలో Mother[మదర్] HelpAge[హెల్పేజ్] ఉన్నదా ఉంటే దానికి మూడు వేల రూపాయల విరాళం పంపు"
+    },
+    {
+      "src_sent": "Show only the free vaccination centers that provide Covaxin vaccine.",
+      "tgt_sent": "కోవ్యాక్సిన్ [covaccine] టీకా అందించే ఉచిత టీకా కేంద్రం మాత్రమే చూపించు",
+      "codeMix": "Covaxin[కోవ్యాక్సిన్] టీకా అందించే ఉచిత Vaccination[టీకా] కేంద్రం మాత్రమే చూపించు"
+    }
+  ],
+  "batch_14": [
+    {
+      "src_sent": "Thirty-nine minutes later, you can resend the OTP to access your Covid account.",
+      "tgt_sent": "ముప్పై తొమ్మిది నిమిషాల తరువాత మీ కోవిడ్ [Covid] అకౌంటు [account] అకౌంటు [account] యాక్సెస్ [access] చేసేందుకు మీరు ఓటీపీని మరలా పంపించవచ్చు",
+      "codeMix": "ముప్పై తొమ్మిది నిమిషాల తరువాత మీ Covid[కోవిడ్] Account[అకౌంటు]ని Access[యాక్సెస్] చేసేందుకు మీరు OTPని మరలా పంపించవచ్చు"
+    },
+    {
+      "src_sent": "Show all the donations I have made in the last six months.",
+      "tgt_sent": "గత ఆరు నెలల్లో నేను ఇచ్చిన డొనేషనలను అన్నిటినీ చూపించు.",
+      "codeMix": "గత ఆరు నెలల్లో నేను ఇచ్చిన Donations[డొనేషనలను] అన్నిటినీ చూపించు"
+    },
+    {
+      "src_sent": "I'm not entirely sure about the steps involved in applying for a passport. Could you explain them to me? Additionally, could you also clarify the eligibility criteria for athletes and the acceptable parameters for obtaining a naturalization certificate?",
+      "tgt_sent": "పాస్‌పోర్ట్ [passport] కోసం దరఖాస్తు చెయ్యడానికి సంబంధించిన దశల గురించి నాకు ఖచ్చితంగా తెలియదు వివరించగలరా అలాగే మీరు క్రీడాకారులు కోసం అర్హత ప్రమాణాలను మరియు నేచురలైజేషన్ [naturalization] సర్టిఫికేట్ [certificate] కోసం ఆమోదయోగ్యమైన పార్మెట్‌లను స్పష్టం చెయ్యగలరా",
+      "codeMix": "పాస్‌పోర్ట్[పాస్‌పోర్ట్] కోసం దరఖాస్తు చెయ్యడానికి సంబంధించిన దశల గురించి నాకు ఖచ్చితంగా తెలియదు వివరించగలరా. అలాగే మీరు Athletes[క్రీడాకారులు] కోసం Eligibility[అర్హత] ప్రమాణాలను మరియు Naturalization[నేచురలైజేషన్] Certificate[సర్టిఫికేట్] కోసం ఆమోదయోగ్యమైన పార్మెట్‌లను స్పష్టం చెయ్యగలరా"
+    },
+    {
+      "src_sent": "Stop reminders for the loan on the property from REPCO Finance.",
+      "tgt_sent": "రెప్కో [REPCO] ఫైనాన్స్ [finance] నుండి ఆస్తిపై రుణంకి రిమైండర్ [reminder] తీసి వేయి",
+      "codeMix": "REPCO[రెప్కో] Finance[ఫైనాన్స్] నుండి ఆస్తిపై రుణంకి Reminder[రిమైండర్] తీసి వేయి"
+    }
+  ]
+}

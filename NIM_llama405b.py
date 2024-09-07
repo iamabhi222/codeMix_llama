@@ -2,7 +2,6 @@ import json
 from langchain_core.output_parsers import JsonOutputParser
 from langchain_core.prompts import PromptTemplate
 from langchain_core.pydantic_v1 import BaseModel, Field
-from langchain_openai import ChatOpenAI
 from openai import OpenAI
 import time
 
@@ -20,7 +19,7 @@ def count_tokens(sentence):
     return 0
 
 # Function to create batches of sentences with a maximum token limit
-def create_batches(sentences, max_tokens=242):
+def create_batches(sentences, max_tokens=512):
     batches = []
     current_batch = []
     current_tokens = 0
@@ -45,9 +44,20 @@ def create_batches(sentences, max_tokens=242):
 
     return batches
 
-# Load sentences from JSON file
-with open('hin_sentences.json', 'r', encoding='utf-8') as file:
-    data = json.load(file)
+_LANG_MAP = {
+    'as': ["Assamese", "Map[মেপ], Chart[চার্ট]"],
+    'bn': ["Bengali", "Map[ম্যাপ], Chart[চার্ট]"],
+    'hi': ["Hindi", "Map[मानचित्र], Chart[चार्ट]"],
+    'gu': ["Gujarati", "Map[નકશો], Chart[ચાર્ટ]"],
+    'ka': ["Kannada", "Map[ನಕ್ಷೆ], Chart[ಚಾರ್ಟ್]"],
+    'ml': ["Malayalam", "Map[മാപ്പ്], Chart[ചാർട്ട്]"],
+    'mr': ["Marathi", "Map[नकाशा], Chart[तक्ता]"],
+    'or': ["Odia", "Map[ମାନଚିତ୍ର], Chart[ଚାର୍ଟ]"],
+    'pa': ["Punjabi", "Map[ਨਕਸ਼ਾ], Chart[ਚਾਰਟ]"],
+    'ta': ["Tamil", "Map[வரைபடம்], Chart[விளக்கப்படம்]"],
+    'te': ["Telugu", "Map[మ్యాప్], Chart[చార్ట్]"],
+}
+
 
 # Define your desired data structure.
 class StructOBJ(BaseModel):
@@ -59,64 +69,197 @@ class StructOBJ(BaseModel):
 responses = {}
 cnt = 0
 
-# Create batches
-batches = create_batches(data)
+examples = {
+    'hi': (
+        "Input:\n"
+        "Popular industries for networking programs include investments in software, programming, and biotech.\n"
+        "Output:\n"
+        "Networking[नेटवर्किंग] कार्यक्रमों के लिए लोकप्रिय industries[उद्योगों] में निवेश Software[सॉफ़्टवेयर], Programming[प्रोग्रामिंग] और Biotech[जैव प्रौद्योगिकी] शामिल हैं|\n"
+        "Input:\n"
+        "The Telangana State Tourism Development Corporation is a state government agency that promotes tourism in Telangana.\n"
+        "Output:\n"
+        "Telangana[तेलंगाना] राज्य Tourism[पर्यटन] विकास निगम एक राज्य सरकार की संस्था है जो Telangana[तेलंगाना] में Tourism[पर्यटन] को बढ़ावा देती है|\n"
+    ),
+    'as': (
+        "Input:\n"
+        "Popular industries for networking programs include investments in software, programming, and biotech.\n"
+        "Output:\n"
+        "Networking[নেটৱৰ্কিং] প্ৰগ্ৰামৰ বাবে জনপ্ৰিয় industries[উদ্যোগ] ত Software[চফ্টৱেৰ], Programming[প্ৰগ্ৰামিং] আৰু Biotech[বায়োটেক] ৰ বিনিয়োগ অন্তর্ভুক্ত হৈছে|\n"
 
-print(f"# Number of batches: {len(batches)}\n")
-
-for batch in batches:
-    cnt += 1
-    print(f"Batch {cnt}\n")
-
-    # Set up a parser + inject instructions into the prompt template.
-    parser = JsonOutputParser(pydantic_object=StructOBJ)
-
-    # Create prompt with the batch of sentences
-    prompt = (
-        "You will be provided with a list of english source sentences and their corresponding hindi translations. Your task is to generate improved translations for these source sentences.\n"
-        "While translating, refer to the provided translations and identify the words that are enclosed in brackets. Use some of these words to create a Code-Mixed style translation.\n"
-        "You also need to incorporate Code-Mixing into the translations that you generate by using the some of the words identified from the provided translations.\n\n"
-        "Retain the identified code-mixed words in the English script."
-        f"Here is the list of sentences along with their corresponding translations:\n{json.dumps(batch, ensure_ascii=False)}\n"
-        f"{parser.get_format_instructions()}"
+        "Input:\n"
+        "The Telangana State Tourism Development Corporation is a state government agency that promotes tourism in Telangana.\n"
+        "Output:\n"
+        "Telangana[তেলেঙ্গানা] ৰাজ্যৰ Tourism[পৰ্যটন] উন্নয়ন নিগম হৈছে এখন ৰাজ্য চৰকাৰৰ সংস্থা যি Telangana[তেলেঙ্গানা] ত Tourism[পৰ্যটন] ক প্ৰচাৰ কৰে|\n"
+    ),
+    'bn': (
+        "Input:\n"
+        "Popular industries for networking programs include investments in software, programming, and biotech.\n"
+        "Output:\n"
+        "Networking[নেটওয়ার্কিং] প্রোগ্রামের জন্য জনপ্রিয় industries[শিল্প] এর মধ্যে Software[সফটওয়্যার], Programming[প্রোগ্রামিং] এবং Biotech[বায়োটেক] বিনিয়োগ অন্তর্ভুক্ত রয়েছে|\n"
+        
+        "Input:\n"
+        "The Telangana State Tourism Development Corporation is a state government agency that promotes tourism in Telangana.\n"
+        "Output:\n"
+        "Telangana[তেলেঙ্গানা] রাজ্য Tourism[পর্যটন] উন্নয়ন কর্পোরেশন একটি রাজ্য সরকারী সংস্থা যা Telangana[তেলেঙ্গানা] তে Tourism[পর্যটন] প্রচার করে|\n"
+    ),
+    'gu': (
+        "Input:\n"
+        "Popular industries for networking programs include investments in software, programming, and biotech.\n"
+        "Output:\n"
+        "Networking[નેટવર્કિંગ] કાર્યક્રમો માટે લોકપ્રિય industries[ઉદ્યોગો] માં Software[સોફ્ટવેર], Programming[પ્રોગ્રામિંગ] અને Biotech[બાયોટેક] ના રોકાણો સામેલ છે|\n"
+        
+        "Input:\n"
+        "The Telangana State Tourism Development Corporation is a state government agency that promotes tourism in Telangana.\n"
+        "Output:\n"
+        "Telangana[તેલંગણા] રાજ્યનો Tourism[પર્યટન] વિકાસ નિગમ એ એક રાજ્ય સરકારની સંસ્થા છે, જે Telangana[તેલંગણા] માં Tourism[પર્યટન] ને પ્રોત્સાહન આપે છે|\n"
+    ),
+    'ka': (
+        "Input:\n"
+        "Popular industries for networking programs include investments in software, programming, and biotech.\n"
+        "Output:\n"
+        "Networking[ನೆಟ್‌ವರ್ಕಿಂಗ್] ಕಾರ್ಯಕ್ರಮಗಳಿಗಾಗಿ ಜನಪ್ರಿಯ industries[ಕೈಗಾರಿಕೆಗಳು] ನಲ್ಲಿ Software[ಸಾಫ್ಟ್‌ವೇರ್], Programming[ಪ್ರೋಗ್ರಾಮಿಂಗ್] ಮತ್ತು Biotech[ಬಯೋಟೆಕ್]ರಲ್ಲಿ ಬಂಡವಾಳ ಹೂಡಿಕೆಗಳನ್ನು ಒಳಗೊಂಡಿರುತ್ತವೆ|\n"
+        
+        "Input:\n"
+        "The Telangana State Tourism Development Corporation is a state government agency that promotes tourism in Telangana.\n"
+        "Output:\n"
+        "Telangana[ತೆಲಂಗಾಣ] ರಾಜ್ಯ Tourism[ಪರ್ಯಟನ] ಅಭಿವೃದ್ಧಿ ನಿಗಮವು ಒಂದು ರಾಜ್ಯ ಸರ್ಕಾರದ ಸಂಸ್ಥೆ, Telangana[ತೆಲಂಗಾಣ] ದಲ್ಲಿ Tourism[ಪರ್ಯಟನ] ನ್ನು ಪ್ರೋತ್ಸಾಹಿಸುತ್ತದೆ|\n"
+    ),
+    'ml': (
+        "Input:\n"
+        "Popular industries for networking programs include investments in software, programming, and biotech.\n"
+        "Output:\n"
+        "Networking[നെറ്റ്വർക്കിംഗ്] പ്രോഗ്രാമുകൾക്കായി ജനപ്രിയ industries[ഉദ്യോഗങ്ങൾ] Software[സോഫ്റ്റ്‌വെയർ], Programming[പ്രോഗ്രാമിംഗ്], Biotech[ബയോടെക്] എന്നിവയിലേക്കുള്ള നിക്ഷേപങ്ങൾ ഉൾപ്പെടുന്നു|\n"
+        
+        "Input:\n"
+        "The Telangana State Tourism Development Corporation is a state government agency that promotes tourism in Telangana.\n"
+        "Output:\n"
+        "Telangana[తెలంగణ] రాష్ట్ర Tourism[టూరిజం] అభివృద్ధి కార్పొరేషన్ ఒక రాష్ట్ర ప్రభుత్వ ఏజెన్సీ, ఇది Telangana[తెలంగణ]లో Tourism[టూరిజం]ను ప్రోత్సహిస్తుంది|\n"
+    ),
+    'mr': (
+        "Input:\n"
+        "Popular industries for networking programs include investments in software, programming, and biotech.\n"
+        "Output:\n"
+        "Networking[नेटवर्किंग] कार्यक्रमांसाठी लोकप्रिय industries[उद्योगां] मध्ये Software[सॉफ्टवेअर], Programming[प्रोग्रामिंग] आणि Biotech[बायोटेक] यामध्ये गुंतवणूक समाविष्ट आहे|\n"
+        
+        "Input:\n"
+        "The Telangana State Tourism Development Corporation is a state government agency that promotes tourism in Telangana.\n"
+        "Output:\n"
+        "Telangana[तेलंगणा] राज्य Tourism[पर्यटन] विकास महामंडळ ही एक राज्य सरकारी संस्था आहे जी Telangana[तेलंगणा] मध्ये Tourism[पर्यटन] ला प्रोत्साहन देते|\n"
+    ),
+    'or': (
+        "Input:\n"
+        "Popular industries for networking programs include investments in software, programming, and biotech.\n"
+        "Output:\n"
+        "Networking[ନେଟୱର୍କିଂ] ପ୍ରୋଗ୍ରାମଗୁଡିକ ପାଇଁ ଲୋକପ୍ରିୟ industries[ଉଦ୍ୟୋଗ] ରେ Software[ସଫ୍ଟୱେର], Programming[ପ୍ରୋଗ୍ରାମିଂ] ଏବଂ Biotech[ବାୟୋଟେକ] ରେ ନିବେଶ ରହିଛି|\n"
+        "Input:\n"
+        "The Telangana State Tourism Development Corporation is a state government agency that promotes tourism in Telangana.\n"
+        "Output:\n"
+        "Telangana[ତେଲେଙ୍ଗାନା] ରାଜ୍ୟ Tourism[ପର୍ଯ୍ୟଟନ] ଉନ୍ନୟନ ନିଗମ ଏକ ରାଜ୍ୟ ସରକାରୀ ଏଜେନ୍ସୀ ଯାହା Telangana[ତେଲେଙ୍ଗାନା]ରେ Tourism[ପର୍ଯ୍ୟଟନ] କୁ ପ୍ରୋତ୍ସାହିତ କରେ|\n"
+    ),
+    'pa': (
+        "Input:\n"
+        "Popular industries for networking programs include investments in software, programming, and biotech.\n"
+        "Output:\n"
+        "Networking[ਨੈੱਟਵਰਕਿੰਗ] ਪ੍ਰੋਗਰਾਮਾਂ ਲਈ ਲੋਕਪ੍ਰਿਯ industries[ਉਦਯੋਗਾਂ] ਵਿੱਚ Software[ਸਾਫਟਵੇਅਰ], Programming[ਪਰੋਗਰਾਮਿੰਗ] ਅਤੇ Biotech[ਬਾਯੋਟੈਕ] ਵਿੱਚ ਨਿਵੇਸ਼ ਸ਼ਾਮਲ ਹਨ|\n"
+        "Input:\n"
+        "The Telangana State Tourism Development Corporation is a state government agency that promotes tourism in Telangana.\n"
+        "Output:\n"
+        "Telangana[ਤੇਲੰਗਾਣਾ] ਸੂਬਾ Tourism[ਟੂਰਿਜ਼ਮ] ਵਿਕਾਸ ਨਿਗਮ ਇੱਕ ਸੂਬਾ ਸਰਕਾਰੀ ਏਜੰਸੀ ਹੈ ਜੋ Telangana[ਤੇਲੰਗਾਣਾ] ਵਿੱਚ Tourism[ਟੂਰਿਜ਼ਮ] ਨੂੰ فروغ ਦੇਂਦਾ ਹੈ|\n"
+    ),
+    'ta': (
+        "Input:\n"
+        "Popular industries for networking programs include investments in software, programming, and biotech.\n"
+        "Output:\n"
+        "Networking[நெட்வொர்க்] திட்டங்களுக்கு பிரபலமான industries[தொழில்களிலும்] Software[மென்பொருள்], Programming[பிரோகிராமிங்] மற்றும் Biotech[பயோடெக்] முதலீடுகள் அடங்கும்|\n"
+        "Input:\n"
+        "The Telangana State Tourism Development Corporation is a state government agency that promotes tourism in Telangana.\n"
+        "Output:\n"
+        "Telangana[தெலங்கானா] மாநில Tourism[சுற்றுலா] மேம்பாட்டு கழகம் என்பது Telangana[தெலங்கானா] சுற்றுலாவை ஊக்குவிக்கும் ஒரு மாநில அரசு நிறுவனம்|\n"
+    ),
+    'te': (
+        "Input:\n"
+        "Popular industries for networking programs include investments in software, programming, and biotech.\n"
+        "Output:\n"
+        "Networking[నెట్‌వర్కింగ్] ప్రోగ్రామ్‌ల కోసం ప్రముఖ industries[పరిశ్రమల్లో] Software[సాఫ్ట్‌వేర్], Programming[ప్రోగ్రామింగ్] మరియు Biotech[బయోటెక్]లో పెట్టుబడులు ఉన్నాయి|\n"
+        
+        "Input:\n"
+        "The Telangana State Tourism Development Corporation is a state government agency that promotes tourism in Telangana.\n"
+        "Output:\n"
+        "Telangana[తెలంగాణ] రాష్ట్ర Tourism[పర్యాటక] అభివృద్ధి సంస్థ రాష్ట్ర ప్రభుత్వం సంచాలించే, Telangana[తెలంగాణ] లో పర్యాటకాన్ని ప్రోత్సహించే సంస్థ|\n"
     )
+}
 
-    try:
-        # Make the API call
-        start_time = time.perf_counter()
-        completion = client.chat.completions.create(
-            model="meta/llama-3.1-405b-instruct",
-            messages=[{"role": "user", "content": prompt}],
-            temperature=0.6,
-            top_p=0.7,
-            max_tokens=4096,
-            stream=False
+
+
+for code, lang in _LANG_MAP.items():
+    # Load sentences from JSON file
+    with open(f'{code}_sentences.json', 'r', encoding='utf-8') as file:
+        data = json.load(file)
+
+    # Create batches
+    batches = create_batches(data)
+
+    print(f"# Number of batches: {len(batches)}\n")
+
+    for batch in batches:
+        cnt += 1
+        print(f"Batch {cnt}\n")
+
+        # Set up a parser + inject instructions into the prompt template.
+        parser = JsonOutputParser(pydantic_object=StructOBJ)
+
+        # Create prompt with the batch of sentences
+        prompt = (
+            f"You will be provided with a list of English source sentences and their corresponding support translations in {lang[0]}. Your task is to generate target translations for the English source sentences using the provided intermediate translations as a reference.\n"
+            "**Use Translations as Reference:** Avoid over-reliance on the provided support translations as they may contain errors. Use them as a guide but focus on generating accurate and coherent translations.\n"
+            "**Incorporate Code-Mixing:** Identify the English words that are enclosed in brackets from the provided target translations and incorporate some of these words into your translations to create a Code-Mixed style.\n"
+            f"**Code-Mixing Style:** Format code-mixed words as Word[Translation] (e.g., {lang[1]}), keeping all code-mixed words in the English script followed by their translation in the {lang[0]} script.\n"
+            "**Remove Bracketed Words from Source:** Do not translate words that are enclosed in brackets in the source sentences(e.g., *[inhaling]*). Remove these bracketed words from the translation.\n"
+            "**Avoid Redundant Translations:** Do not translate words multiple times, for example, if a term like *बास्केटबॉल [basketball]* is already presented, translate it simply as *basketball*. Retain the English term without repeating the translation.\n"
+            "**Output Format:** Ensure that your translations are clear and maintain the intended meaning of the source sentences, while adhering to the above guidelines. \n\n"
+            f"Here is the list of sentences along with their corresponding translations:\n{json.dumps(batch, ensure_ascii=False)}\n\n"
+            f"Below are some examples of how the translations should look:\n{examples[code]}\n"
+            f"{parser.get_format_instructions()}"
         )
 
-        end_time = time.perf_counter()
-        elapsed_time = end_time - start_time
+        print(prompt)
 
-        print("Time for API", elapsed_time)
-
-        # Initialize buffer to store chunks of the response
         try:
-            response_buffer = completion.choices[0].message.content
-            # Parse the response buffer using the parser
+            # Make the API call
+            start_time = time.perf_counter()
+            completion = client.chat.completions.create(
+                model="meta/llama-3.1-405b-instruct",
+                messages=[{"role": "user", "content": prompt}],
+                temperature=0.6,
+                top_p=0.7,
+                max_tokens=4096,
+                stream=False
+            )
+
+            end_time = time.perf_counter()
+            elapsed_time = end_time - start_time
+
+            print("Time for API", elapsed_time)
+
+            # Initialize buffer to store chunks of the response
             try:
-                parsed_response = parser.parse(response_buffer)
-                if isinstance(parsed_response, list):
-                    responses[f"batch_{cnt}"] = parsed_response
+                response_buffer = completion.choices[0].message.content
+                # Parse the response buffer using the parser
+                try:
+                    parsed_response = parser.parse(response_buffer)
+                    if isinstance(parsed_response, list):
+                        responses[f"batch_{cnt}"] = parsed_response
+                except Exception as e:
+                    print(f"Error parsing response: {e}")
+            
             except Exception as e:
                 print(f"Error parsing response: {e}")
-        
+
         except Exception as e:
-            print(f"Error parsing response: {e}")
+            print(f"Error making API call: {e}")
 
-    except Exception as e:
-        print(f"Error making API call: {e}")
-
-# Save all responses to a single JSON file
-with open('filtered_sentences.json', 'w', encoding='utf-8') as resp_file:
-    json.dump(responses, resp_file, ensure_ascii=False, indent=2)
+    # Save all responses to a single JSON file
+    with open(f'{code}_response.json', 'w', encoding='utf-8') as resp_file:
+        json.dump(responses, resp_file, ensure_ascii=False, indent=2)
 
 print("Processing complete. Responses saved to filtered_sentences.json.")

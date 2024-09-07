@@ -1,0 +1,102 @@
+[
+  {
+    "src_sent": "List all the ESI centers located in the state of Goa that provide microbiology services and whose center type is IMMP hospital.",
+    "tgt_sent": "राज्य गोवा में स्थित सभी ई [E] एस [S] आई [I] सी [C] केंद्रों को सूचीबद्ध करें जो सूक्ष्मजीव विज्ञान सेवाएँ देते हैं और जिनके केंद्र प्रकार आई [M] एम [M] पी [P] चिकित्सालय हैं\n"
+  },
+  {
+    "src_sent": "Popular industries for networking programs include investments in software, programming, and biotech.",
+    "tgt_sent": "नेटवर्किंग [Networking] कार्यक्रमों के लिए लोकप्रिय उद्योगों में निवेश सॉफ्टवेयर [Software] प्रोग्रामिंग [programming] और बायोटेक [biotech] शामिल हैं\n"
+  },
+  {
+    "src_sent": "If you're that interested, you can get in touch with these friends to ask if they've heard anything.",
+    "tgt_sent": "यदि आप इतने इच्छुक हैं, तो आप इन मित्रों से यह पूछने के लिए संपर्क कर सकते हैं कि क्या उन्होंने कुछ सुना है\n"
+  },
+  {
+    "src_sent": "Where is a petrol station within a five-mile radius?",
+    "tgt_sent": "पाँच मील के दायरे में पेट्रोल [petrol] स्टेशन [station] कहाँ\n"
+  },
+  {
+    "src_sent": "Please move on to the next song.",
+    "tgt_sent": "कृपया अगले गीत पर जाएँ\n"
+  },
+  {
+    "src_sent": "Then use graphs and charts to create a map of the increase in your estimated gross income.",
+    "tgt_sent": "फिर अपनी अनुमानित सकल आय में वृद्धि का मानचित्र तैयार करने के लिए ग्राफ़ [Graph] और चार्ट [chart] का उपयोग करें\n"
+  },
+  {
+    "src_sent": "Is there any possibility that these items will be available this week?",
+    "tgt_sent": "क्या चीज़ आइटम्स [Items] इस सप्ताह उपलब्ध होने की कोई संभावना है\n"
+  },
+  {
+    "src_sent": "To get started, [inhaling] set an alarm.",
+    "tgt_sent": "शुरू करने के लिए [inhaling] अलार्म [Alarm] लगाओ\n"
+  },
+  {
+    "src_sent": "I want to know the status of my order which includes Laughing Cow Creamy Cheese Triangles, Sneha Select Dragon Chicken Kebab, and Divha Lemon Ginger Tea.",
+    "tgt_sent": "मैं द [The] लाफ़िंग [Laughing] काओ [Cow] क्रीमी [Creamy] चीज़ [Cheese] ट्राईऐंगल्स [Triangles] स्नेहा सेलेक्ट [Select] ड्रैगन [Dragon] चिकन [Chicken] कबाब [Kebab] और दिभा लेमन [Lemon] जिंजर [Ginger] टी [Tea] वाले अपने ऑर्डर [Order] की स्थिति जानना चाहता हूँ\n"
+  },
+  {
+    "src_sent": "Show the balance and transaction history of my DCB Bank account.",
+    "tgt_sent": "मेरे डी [D] सी [C] बी [B] बैंक [Bank] खाते की शेष राशि और लेन-देन इतिहास प्रदर्शित करें [noise]\n"
+  },
+  {
+    "src_sent": "There are five individual events, including men's singles, women's singles, men's doubles, women's doubles, and mixed doubles. These are currently held in odd-numbered years.",
+    "tgt_sent": "पाँच व्यक्तिगत स्पर्धाएँ, जिनमें पुरुष एकल, महिला एकल, [horn] पुरुष युगल, महिला युगल [inhaling] और मिश्रित युगल शामिल हैं। वर्तमान में विषम संख्या वाले वर्षों में आयोजित की जाती हैं।\n"
+  },
+  {
+    "src_sent": "Are cookies available?",
+    "tgt_sent": "क्या कुकीज़ [Cookies] उपलब्ध हैं\n"
+  },
+  {
+    "src_sent": "The Telangana State Tourism Development Corporation is a state government agency that promotes tourism in Telangana.",
+    "tgt_sent": "तेलंगाना राज्य पर्यटन विकास निगम एक राज्य सरकार की संस्था है जो तेलंगाना में पर्यटन को बढ़ावा देती है\n"
+  },
+  {
+    "src_sent": "Please verify if my bank account [Bank] seven three five one one seven three three nine seven seven [inhaling] eight eight eight seven seven [inhaling] can be linked to the digital payment app PayZapp.",
+    "tgt_sent": "कृपया सत्यापित करें कि क्या मेरा बैंक [Bank] खाता सात तीन पाँच एक एक सात तीन तीन नौ सात सात [inhaling] आठ आठ आठ सात सात [inhaling] डिजिटल [Digital] भुगतान ऐप [App] पेज़ैप [PayZapp] से जोड़ा जा सकता है\n"
+  },
+  {
+    "src_sent": "Basketball, invented by Canadian-American gym teacher James Naismith in Springfield, Massachusetts, United States of America in eighteen ninety-one, has become one of the world's most popular and widely watched sports.",
+    "tgt_sent": "स्प्रिंगफील्ड [Springfield] मैसाचुसेट्स [Massachusetts] संयुक्त राज्य अमेरिका [America] में कनाडाई अमेरिकी जिम [gym] शिक्षक जेम्स [James] नाइस्मिथ [Naismith] द्वारा [inhaling] अठारह सौ इक्यानवे में आविष्कार किया गया [inhaling] बास्केटबॉल [basketball] दुनिया के सबसे लोकप्रिय और व्यापक रूप से देखे जाने [door] वाले खेलों में से एक बन गया है\n"
+  },
+  {
+    "src_sent": "I want to remove the Beardo hair serum, can you take it out of my shopping list?",
+    "tgt_sent": "मैं बिअर्डो [Beardo] हेयर [hair] सीरम [Serum] हटाना चाहता हूँ , क्या आप इसे मेरी ख़रीदारी सूची से निकाल सकते हैं?\n"
+  },
+  {
+    "src_sent": "Can you help me find the ESIc centres providing X-ray services in the state of Sikkim?",
+    "tgt_sent": "क्या आप राज्य सिक्किम में एक्स-रे [X-Ray] सेवाएँ देने वाले ई [E] एस [S] आई [I] सी [C] केंद्रों को ढूँढने में मदद कर सकते हैं\n"
+  },
+  {
+    "src_sent": "The item in your cart, Borosil hot and cold stainless steel tea kettle, is not in stock.",
+    "tgt_sent": "आप के कार्ट [cart] का आइटम [item] बोरोसिल [borosil] हॉट [hot] एंड [and] कोल्ड [cold] स्टेनलेस [stainless] स्टील [steel] टी [tea] कैटल [kettle] भंडार में नहीं है\n"
+  },
+  {
+    "src_sent": "Three times two equals six.",
+    "tgt_sent": "तीन गुना दो बराबर छः\n"
+  },
+  {
+    "src_sent": "He is credited with systematizing certain aspects of Hindustani music and bringing to the forefront many ragas, including Yaman Kalyan, Zilaf, and Sarpa da.",
+    "tgt_sent": "उन्हें हिंदुस्तानी संगीत के कुछ पहलुओं को [inhaling] व्यवस्थित करने और यमन कल्याण ज़ीलफ़ और सर्पदा जैसे कई रागों को सामने लाने का [inhaling] श्रेय दिया जाता है\n"
+  },
+  {
+    "src_sent": "I want to know the status of my order for Ching's Secret Green Chilli Sauce, Pure and Sure Amla Powder, and Nutty Yogi Turmeric Latte.",
+    "tgt_sent": "मैं चिंग्स [ching's] सीक्रेट [secret] ग्रीन [green] चिली [chilli] सॉस [sauce] प्योर [pre] एँड [and] श्योर [sure] आंवला पाउडर [powder] और नट्टी [nutty] योगी [yogi] टर्मेरिक [turmeric] लाट्टे [latte] वाले अपने ऑर्डर [order] की स्थिति जानना चाहता हूँ\n"
+  },
+  {
+    "src_sent": "Show all Pediasure products that are available for immediate delivery.",
+    "tgt_sent": "पीडिआश्योर [Pediasure] [horn] के सभी उत्पाद दिखाएँ जो तुरंत डिलीवरी [Delivery] के [horn] लिए उपलब्ध हैं\n"
+  },
+  {
+    "src_sent": "Is there enough money in my Jammu and Kashmir Grameen Bank account to carry out a transaction of nine thousand rupees?",
+    "tgt_sent": "क्या मेरे जम्मू एंड [And] कश्मीर ग्रामीण बैंक [Bank] खाते में नौ हज़ार रुपये का लेन-देन करने के लिए पर्याप्त पैसे हैं\n"
+  },
+  {
+    "src_sent": "Show all Cinthol products that are available for immediate delivery.",
+    "tgt_sent": "सिंथौल [Cinthol] के सभी उत्पाद दिखाएं [noise] जो तुरंत डिलीवरी [Delivery] के लिए उपलब्ध हैं\n"
+  },
+  {
+    "src_sent": "Log in to the Covin portal using the phone number 616035577313 and M pin 6184, and download my vaccination certificate.",
+    "tgt_sent": "फ़ोन [phone] नंबर [number] छः एक शून्य तीन पाँच पाँच सात सात तीन एक तीन और एम [M] पिन [pin] छः एक आठ चार का उपयोग करके कोविन [Covin] पोर्टल [portal] पर लॉग [log] इन [in] करें और मेरा टीका प्रमाणपत्र डाउनलोड [download] करें\n"
+  }
+]

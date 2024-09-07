@@ -1,0 +1,110 @@
+{
+  "batch_1": [
+    {
+      "src_sent": "List all the ESI centers located in the state of Goa that provide microbiology services and whose center type is IMMP hospital.",
+      "tgt_sent": "राज्य गोवा में स्थित सभी ई [E] एस [S] आई [I] सी [C] केंद्रों को सूचीबद्ध करें जो सूक्ष्मजीव विज्ञान सेवाएँ देते हैं और जिनके केंद्र प्रकार आई [M] एम [M] पी [P] चिकित्सालय हैं",
+      "codeMix": "राज्य Goa[गोवा] में स्थित सभी ESI[ईएसआई] केंद्रों को सूचीबद्ध करें जो Microbiology[सूक्ष्मजीव विज्ञान] सेवाएँ देते हैं और जिनके केंद्र प्रकार IMMP[आईएमएमपी] Hospital[चिकित्सालय] हैं"
+    },
+    {
+      "src_sent": "Popular industries for networking programs include investments in software, programming, and biotech.",
+      "tgt_sent": "नेटवर्किंग [Networking] कार्यक्रमों के लिए लोकप्रिय उद्योगों में निवेश सॉफ्टवेयर [Software] प्रोग्रामिंग [programming] और बायोटेक [biotech] शामिल हैं",
+      "codeMix": "Networking[नेटवर्किंग] कार्यक्रमों के लिए लोकप्रिय industries[उद्योगों] में निवेश Software[सॉफ़्टवेयर], Programming[प्रोग्रामिंग] और Biotech[जैव प्रौद्योगिकी] शामिल हैं"
+    },
+    {
+      "src_sent": "If you're that interested, you can get in touch with these friends to ask if they've heard anything.",
+      "tgt_sent": "यदि आप इतने इच्छुक हैं, तो आप इन मित्रों से यह पूछने के लिए संपर्क कर सकते हैं कि क्या उन्होंने कुछ सुना है",
+      "codeMix": "यदि आप इतने interested[इच्छुक] हैं, तो आप इन friends[मित्रों] से यह पूछने के लिए संपर्क कर सकते हैं कि क्या उन्होंने कुछ सुना है"
+    },
+    {
+      "src_sent": "Where is a petrol station within a five-mile radius?",
+      "tgt_sent": "पाँच मील के दायरे में पेट्रोल [petrol] स्टेशन [station] कहाँ",
+      "codeMix": "पाँच mile[मील] के दायरे में Petrol[पेट्रोल] Station[स्टेशन] कहाँ"
+    },
+    {
+      "src_sent": "Please move on to the next song.",
+      "tgt_sent": "कृपया अगले गीत पर जाएँ",
+      "codeMix": "कृपया अगले Song[गीत] पर जाएँ"
+    },
+    {
+      "src_sent": "Then use graphs and charts to create a map of the increase in your estimated gross income.",
+      "tgt_sent": "फिर अपनी अनुमानित सकल आय में वृद्धि का मानचित्र तैयार करने के लिए ग्राफ़ [Graph] और चार्ट [chart] का उपयोग करें",
+      "codeMix": "फिर अपनी अनुमानित सकल आय में वृद्धि का Map[मानचित्र] तैयार करने के लिए Graph[ग्राफ़] और Chart[चार्ट] का उपयोग करें"
+    },
+    {
+      "src_sent": "Is there any possibility that these items will be available this week?",
+      "tgt_sent": "क्या चीज़ आइटम्स [Items] इस सप्ताह उपलब्ध होने की कोई संभावना है",
+      "codeMix": "क्या Items[आइटम्स] इस सप्ताह उपलब्ध होने की कोई possibility[संभावना] है"
+    },
+    {
+      "src_sent": "To get started, [inhaling] set an alarm.",
+      "tgt_sent": "शुरू करने के लिए [inhaling] अलार्म [Alarm] लगाओ",
+      "codeMix": "शुरू करने के लिए Alarm[अलार्म] लगाओ"
+    }
+  ],
+  "batch_3": [
+    {
+      "src_sent": "Please verify if my bank account [Bank] seven three five one one seven three three nine seven seven [inhaling] eight eight eight seven seven [inhaling] can be linked to the digital payment app PayZapp.",
+      "tgt_sent": "कृपया सत्यापित करें कि क्या मेरा बैंक [Bank] खाता सात तीन पाँच एक एक सात तीन तीन नौ सात सात [inhaling] आठ आठ आठ सात सात [inhaling] डिजिटल [Digital] भुगतान ऐप [App] पेज़ैप [PayZapp] से जोड़ा जा सकता है",
+      "codeMix": "कृपया सत्यापित करें कि क्या मेरा Bank[बैंक] खाता सात तीन पाँच एक एक सात तीन तीन नौ सात सात Digital[डिजिटल] भुगतान App[ऐप] PayZapp[पेज़ैप] से जोड़ा जा सकता है"
+    },
+    {
+      "src_sent": "Basketball, invented by Canadian-American gym teacher James Naismith in Springfield, Massachusetts, United States of America in eighteen ninety-one, has become one of the world's most popular and widely watched sports.",
+      "tgt_sent": "स्प्रिंगफील्ड [Springfield] मैसाचुसेट्स [Massachusetts] संयुक्त राज्य अमेरिका [America] में कनाडाई अमेरिकी जिम [gym] शिक्षक जेम्स [James] नाइस्मिथ [Naismith] द्वारा [inhaling] अठारह सौ इक्यानवे में आविष्कार किया गया [inhaling] बास्केटबॉल [basketball] दुनिया के सबसे लोकप्रिय और व्यापक रूप से देखे जाने [door] वाले खेलों में से एक बन गया है",
+      "codeMix": "स्प्रिंगफील्ड[स्प्रिंगफील्ड] मैसाचुसेट्स[मैसाचुसेट्स] संयुक्त राज्य अमेरिका[अमेरिका] में कनाडाई अमेरिकी Gym[जिम] शिक्षक James[जेम्स] Naismith[नाइस्मिथ] द्वारा अठारह सौ इक्यानवे में आविष्कार किया गया Basketball[बास्केटबॉल] दुनिया के सबसे लोकप्रिय और व्यापक रूप से देखे जाने वाले खेलों में से एक बन गया है"
+    },
+    {
+      "src_sent": "I want to remove the Beardo hair serum, can you take it out of my shopping list?",
+      "tgt_sent": "मैं बिअर्डो [Beardo] हेयर [hair] सीरम [Serum] हटाना चाहता हूँ , क्या आप इसे मेरी ख़रीदारी सूची से निकाल सकते हैं?",
+      "codeMix": "मैं Beardo[बिअर्डो] Hair[हेयर] Serum[सीरम] हटाना चाहता हूँ, क्या आप इसे मेरी ख़रीदारी सूची से निकाल सकते हैं?"
+    },
+    {
+      "src_sent": "Can you help me find the ESIc centres providing X-ray services in the state of Sikkim?",
+      "tgt_sent": "क्या आप राज्य सिक्किम में एक्स-रे [X-Ray] सेवाएँ देने वाले ई [E] एस [S] आई [I] सी [C] केंद्रों को ढूँढने में मदद कर सकते हैं",
+      "codeMix": "क्या आप राज्य सिक्किम में X-Ray[एक्स-रे] सेवाएँ देने वाले ESIc[ईएसआईसी] केंद्रों को ढूँढने में मदद कर सकते हैं"
+    }
+  ],
+  "batch_4": [
+    {
+      "src_sent": "The item in your cart, Borosil hot and cold stainless steel tea kettle, is not in stock.",
+      "tgt_sent": "आप के कार्ट [cart] का आइटम [item] बोरोसिल [borosil] हॉट [hot] एंड [and] कोल्ड [cold] स्टेनलेस [stainless] स्टील [steel] टी [tea] कैटल [kettle] भंडार में नहीं है",
+      "codeMix": "आपके Cart[कार्ट] में Borosil[बोरोसिल] Hot[हॉट] और Cold[कोल्ड] Stainless[स्टेनलेस] Steel[स्टील] Tea[टी] Kettle[कैटल] भंडार में नहीं है"
+    },
+    {
+      "src_sent": "Three times two equals six.",
+      "tgt_sent": "तीन गुना दो बराबर छः",
+      "codeMix": "तीन गुना Two[दो] बराबर Six[छः]"
+    },
+    {
+      "src_sent": "He is credited with systematizing certain aspects of Hindustani music and bringing to the forefront many ragas, including Yaman Kalyan, Zilaf, and Sarpa da.",
+      "tgt_sent": "उन्हें हिंदुस्तानी संगीत के कुछ पहलुओं को [inhaling] व्यवस्थित करने और यमन कल्याण ज़ीलफ़ और सर्पदा जैसे कई रागों को सामने लाने का [inhaling] श्रेय दिया जाता है",
+      "codeMix": "उन्हें Hindustani[हिंदुस्तानी] संगीत के कुछ पहलुओं को व्यवस्थित करने और Yaman Kalyan[यमन कल्याण], Zilaf[ज़ीलफ़], और Sarpa da[सर्पदा] जैसे कई Ragas[रागों] को सामने लाने का श्रेय दिया जाता है"
+    },
+    {
+      "src_sent": "I want to know the status of my order for Ching's Secret Green Chilli Sauce, Pure and Sure Amla Powder, and Nutty Yogi Turmeric Latte.",
+      "tgt_sent": "मैं चिंग्स [ching's] सीक्रेट [secret] ग्रीन [green] चिली [chilli] सॉस [sauce] प्योर [pre] एँड [and] श्योर [sure] आंवला पाउडर [powder] और नट्टी [nutty] योगी [yogi] टर्मेरिक [turmeric] लाट्टे [latte] वाले अपने ऑर्डर [order] की स्थिति जानना चाहता हूँ",
+      "codeMix": "मैं Ching's[चिंग्स] Secret[सीक्रेट] Green[ग्रीन] Chilli[चिली] Sauce[सॉस], Pure[प्योर] और Sure[श्योर] Amla[आंवला] Powder[पाउडर], और Nutty[नट्टी] Yogi[योगी] Turmeric[टर्मेरिक] Latte[लाट्टे] वाले अपने Order[ऑर्डर] की स्थिति जानना चाहता हूँ"
+    },
+    {
+      "src_sent": "Show all Pediasure products that are available for immediate delivery.",
+      "tgt_sent": "पीडिआश्योर [Pediasure] [horn] के सभी उत्पाद दिखाएँ जो तुरंत डिलीवरी [Delivery] के [horn] लिए उपलब्ध हैं",
+      "codeMix": "सभी Pediasure[पीडिआश्योर] Products[उत्पाद] दिखाएँ जो तुरंत Delivery[डिलीवरी] के लिए उपलब्ध हैं"
+    },
+    {
+      "src_sent": "Is there enough money in my Jammu and Kashmir Grameen Bank account to carry out a transaction of nine thousand rupees?",
+      "tgt_sent": "क्या मेरे जम्मू एंड [And] कश्मीर ग्रामीण बैंक [Bank] खाते में नौ हज़ार रुपये का लेन-देन करने के लिए पर्याप्त पैसे हैं",
+      "codeMix": "क्या मेरे Jammu[जम्मू] और Kashmir[कश्मीर] Grameen[ग्रामीण] Bank[बैंक] खाते में नौ हज़ार Rupees[रुपये] का Transaction[लेन-देन] करने के लिए पर्याप्त पैसे हैं"
+    }
+  ],
+  "batch_5": [
+    {
+      "src_sent": "Show all Cinthol products that are available for immediate delivery.",
+      "tgt_sent": "सिंथौल [Cinthol] के सभी उत्पाद दिखाएं [noise] जो तुरंत डिलीवरी [Delivery] के लिए उपलब्ध हैं",
+      "codeMix": "Cinthol[Cinthol] के सभी उत्पाद दिखाएं जो तुरंत Delivery[डिलीवरी] के लिए उपलब्ध हैं"
+    },
+    {
+      "src_sent": "Log in to the Covin portal using the phone number 616035577313 and M pin 6184, and download my vaccination certificate.",
+      "tgt_sent": "फ़ोन [phone] नंबर [number] छः एक शून्य तीन पाँच पाँच सात सात तीन एक तीन और एम [M] पिन [pin] छः एक आठ चार का उपयोग करके कोविन [Covin] पोर्टल [portal] पर लॉग [log] इन [in] करें और मेरा टीका प्रमाणपत्र डाउनलोड [download] करें",
+      "codeMix": "Phone[फ़ोन] नंबर 616035577313 और M[M] Pin[pin] 6184 का उपयोग करके Covin[Covin] Portal[पोर्टल] पर Log[लॉग] in[इन] करें और मेरा Vaccination[टीका] Certificate[प्रमाणपत्र] Download[डाउनलोड] करें"
+    }
+  ]
+}
